@@ -1,0 +1,646 @@
+[
+  {
+    "name": "LG OLED evo C3 65 inch 4K Smart TV",
+    "category": "TV",
+    "productCode": "OLED65C3PSA",
+    "description": "Experience breathtaking picture quality with LG's latest OLED evo technology. Self-lit pixels deliver perfect blacks and infinite contrast for stunning visuals.",
+    "mrp": 21990,
+    "price": 189990,
+    "specifications": {
+      "Screen Size": "65 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "OLED evo",
+      "Refresh Rate": "120Hz",
+      "HDR": "Dolby Vision, HDR10, HLG",
+      "Smart TV": "webOS 23",
+      "Processor": "α9 Gen6 AI Processor 4K",
+      "Sound Output": "40W",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "3",
+      "Dimensions": "144.5 x 82.8 x 4.5 cm"
+    },
+    "features": [
+      "OLED evo technology for brighter picture",
+      "α9 Gen6 AI Processor for enhanced picture and sound",
+      "Dolby Vision and Dolby Atmos support",
+      "120Hz refresh rate for smooth gaming",
+      "webOS 23 with AI ThinQ",
+      "Magic Remote included",
+      "Filmmaker Mode",
+      "NVIDIA G-SYNC and AMD FreeSync Premium"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/tvs/md07577129/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/tvs/md07577129/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/tvs/md07577129/gallery/D-03.jpg",
+      "https://www.lg.com/in/images/tvs/md07577129/gallery/D-04.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/sample-video-1",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year on panel",
+    "energyRating": "5 Star",
+    "tags": ["OLED", "4K", "Smart TV", "Gaming", "Premium", "120Hz", "Dolby Vision"]
+  },
+  {
+    "name": "LG 55 inch 4K UHD Smart LED TV",
+    "category": "TV",
+    "productCode": "55UR7500PSC",
+    "description": "Immerse yourself in stunning 4K clarity with AI-powered picture enhancement and webOS smart platform for endless entertainment.",
+    "mrp": 21990,
+    "price": 54990,
+    "specifications": {
+      "Screen Size": "55 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "LED",
+      "Refresh Rate": "60Hz",
+      "HDR": "HDR10, HLG",
+      "Smart TV": "webOS 23",
+      "Processor": "α5 Gen6 AI Processor 4K",
+      "Sound Output": "20W",
+      "HDMI Ports": "3",
+      "USB Ports": "2",
+      "Dimensions": "123.2 x 71.6 x 8.6 cm"
+    },
+    "features": [
+      "4K UHD resolution",
+      "α5 Gen6 AI Processor",
+      "webOS 23 Smart TV",
+      "AI Sound Pro",
+      "Filmmaker Mode",
+      "Built-in Alexa and Google Assistant",
+      "Screen Share and AirPlay 2",
+      "Game Optimizer"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/tvs/md07577050/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/tvs/md07577050/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/tvs/md07577050/gallery/D-03.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "1 year comprehensive",
+    "energyRating": "4 Star",
+    "tags": ["LED", "4K", "Smart TV", "Budget Friendly", "webOS"]
+  },
+  {
+    "name": "LG 9 Kg 5 Star Inverter Front Load Washing Machine",
+    "category": "Washing Machine",
+    "productCode": "FHP1209Z5M",
+    "description": "Experience ultimate fabric care with AI DD technology that detects fabric texture and load size to provide optimal washing motions.",
+    "mrp": 21990,
+    "price": 56990,
+    "specifications": {
+      "Capacity": "9 Kg",
+      "Type": "Front Load",
+      "Energy Rating": "5 Star",
+      "Motor Type": "Inverter Direct Drive",
+      "Wash Programs": "14",
+      "Spin Speed": "1200 RPM",
+      "Display": "LED",
+      "Dimensions": "60 x 65 x 85 cm"
+    },
+    "features": [
+      "AI Direct Drive technology",
+      "Steam wash for allergen removal",
+      "TurboWash 360 - saves time and energy",
+      "6 Motion DD for fabric care",
+      "Smart Diagnosis",
+      "Child Lock",
+      "Auto Restart",
+      "Waterproof touch panel"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/washing-machines/md07551749/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551749/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551749/gallery/D-03.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551749/gallery/D-04.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/sample-video-2",
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI DD", "Steam Wash", "Inverter", "Energy Efficient"]
+  },
+  {
+    "name": "LG 7 Kg Top Load Washing Machine",
+    "category": "Washing Machine",
+    "productCode": "T70SKSF1Z",
+    "description": "Smart Inverter technology provides efficient and quiet washing while ensuring minimal energy consumption.",
+    "mrp": 21990,
+    "price": 21990,
+    "specifications": {
+      "Capacity": "7 Kg",
+      "Type": "Top Load",
+      "Energy Rating": "5 Star",
+      "Motor Type": "Smart Inverter",
+      "Wash Programs": "8",
+      "Spin Speed": "700 RPM",
+      "Display": "LED",
+      "Dimensions": "54 x 54 x 89 cm"
+    },
+    "features": [
+      "Smart Inverter technology",
+      "Punch +3 pulsator for better wash",
+      "Auto Restart",
+      "Jet Spray+",
+      "Smart Motion",
+      "Wind Jet Dry",
+      "Stainless Steel tub",
+      "Child Lock"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/washing-machines/md07551617/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551617/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551617/gallery/D-03.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter", "Budget Friendly", "Energy Efficient"]
+  },
+  {
+    "name": "LG 655 L Frost Free Side by Side Refrigerator",
+    "category": "Refrigerator",
+    "productCode": "GC-B247SLUV",
+    "description": "Experience freshness with Door Cooling+ technology that ensures uniform cooling and maintains optimal humidity levels.",
+    "mrp": 21990,
+    "price": 89990,
+    "specifications": {
+      "Capacity": "655 L",
+      "Type": "Side by Side",
+      "Defrost Type": "Frost Free",
+      "Compressor Type": "Inverter Linear Compressor",
+      "Energy Rating": "3 Star",
+      "Shelves": "Toughened Glass",
+      "Ice Dispenser": "Yes",
+      "Water Dispenser": "Yes",
+      "Dimensions": "91.2 x 73.9 x 179 cm"
+    },
+    "features": [
+      "Inverter Linear Compressor",
+      "Door Cooling+ technology",
+      "Multi Air Flow",
+      "Smart Diagnosis",
+      "Moist Balance Crisper",
+      "Ice & Water Dispenser",
+      "Door Alarm",
+      "LED Display",
+      "Sabbath Mode",
+      "Auto Smart Connect"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/refrigerators/md07553059/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553059/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553059/gallery/D-03.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553059/gallery/D-04.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/sample-video-3",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on compressor",
+    "energyRating": "3 Star",
+    "tags": ["Side by Side", "Frost Free", "Inverter", "Door Cooling", "Water Dispenser"]
+  },
+  {
+    "name": "LG 335 L Double Door Refrigerator",
+    "category": "Refrigerator",
+    "productCode": "GL-T322RPZU",
+    "description": "Smart Inverter Compressor with convertible technology allows you to optimize your refrigerator space according to your needs.",
+    "mrp": 21990,
+    "price": 36990,
+    "specifications": {
+      "Capacity": "335 L",
+      "Type": "Double Door",
+      "Defrost Type": "Frost Free",
+      "Compressor Type": "Smart Inverter Compressor",
+      "Energy Rating": "3 Star",
+      "Shelves": "Toughened Glass",
+      "Convertible": "Yes",
+      "Dimensions": "59.9 x 66.8 x 167.8 cm"
+    },
+    "features": [
+      "Smart Inverter Compressor",
+      "Convertible Plus technology",
+      "Multi Air Flow",
+      "Moist Balance Crisper",
+      "Auto Smart Connect",
+      "Smart Diagnosis",
+      "Stabilizer Free Operation",
+      "Door Cooling+"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/refrigerators/md07553217/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553217/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553217/gallery/D-03.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on compressor",
+    "energyRating": "3 Star",
+    "tags": ["Double Door", "Frost Free", "Convertible", "Smart Inverter", "Mid Range"]
+  },
+  {
+    "name": "LG 15 Place Settings QuadWash Dishwasher",
+    "category": "Dishwashers",
+    "productCode": "DFB424FP",
+    "description": "QuadWash technology with four spray arms ensures every dish is thoroughly cleaned from multiple angles.",
+    "mrp": 21990,
+    "price": 54990,
+    "specifications": {
+      "Capacity": "15 Place Settings",
+      "Type": "Free Standing",
+      "Wash Programs": "9",
+      "Energy Rating": "4 Star",
+      "Noise Level": "44 dB",
+      "Spray Arms": "4",
+      "Drying Type": "TrueSteam",
+      "Dimensions": "60 x 60 x 85 cm"
+    },
+    "features": [
+      "QuadWash technology",
+      "TrueSteam technology",
+      "Dynamic Dry with Auto Door Open",
+      "Smart Rack system",
+      "Inverter Direct Drive",
+      "9 wash programs",
+      "Dual Zone wash",
+      "Smart Diagnosis",
+      "Child Lock",
+      "Delay Start up to 19 hours"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/dishwashers/md07524087/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/dishwashers/md07524087/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/dishwashers/md07524087/gallery/D-03.jpg",
+      "https://www.lg.com/in/images/dishwashers/md07524087/gallery/D-04.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/sample-video-4",
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "4 Star",
+    "tags": ["QuadWash", "TrueSteam", "15 Place", "Inverter", "Premium"]
+  },
+  {
+    "name": "LG 14 Place Settings Dishwasher",
+    "category": "Dishwashers",
+    "productCode": "DFB424HP",
+    "description": "Experience hygienic cleaning with TrueSteam technology that eliminates 99.999% of bacteria.",
+    "mrp": 21990,
+    "price": 47990,
+    "specifications": {
+      "Capacity": "14 Place Settings",
+      "Type": "Free Standing",
+      "Wash Programs": "8",
+      "Energy Rating": "3 Star",
+      "Noise Level": "46 dB",
+      "Spray Arms": "3",
+      "Drying Type": "TrueSteam",
+      "Dimensions": "60 x 60 x 85 cm"
+    },
+    "features": [
+      "TrueSteam technology",
+      "Inverter Direct Drive",
+      "Dynamic Dry",
+      "Height adjustable upper rack",
+      "8 wash programs",
+      "Smart Diagnosis",
+      "Child Lock",
+      "Delay Start",
+      "Half Load option"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/dishwashers/md07524098/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/dishwashers/md07524098/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/dishwashers/md07524098/gallery/D-03.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "3 Star",
+    "tags": ["TrueSteam", "14 Place", "Inverter", "Hygienic", "Mid Range"]
+  },
+  {
+    "name": "LG 42 L Charcoal Convection Microwave Oven",
+    "category": "Microwave Ovens",
+    "productCode": "MC4286BRUM",
+    "description": "Charcoal Lighting Heater and Quartz Heater together make your food crispy outside and juicy inside, just like traditional cooking.",
+    "mrp": 21990,
+    "price": 24990,
+    "specifications": {
+      "Capacity": "42 L",
+      "Type": "Convection",
+      "Power Output": "1950 W",
+      "Heating Type": "Charcoal Lighting + Quartz Heater",
+      "Control Type": "Touch Panel",
+      "Auto Cook Menus": "361",
+      "Cavity Material": "Stainless Steel",
+      "Dimensions": "56.1 x 48.4 x 35.5 cm"
+    },
+    "features": [
+      "Charcoal Lighting Heater",
+      "Quartz Heater",
+      "Motorized Rotisserie",
+      "361 Indian Auto Cook Menus",
+      "Smart Inverter technology",
+      "Tandoor Technology",
+      "Ghee Boil Technology",
+      "Indian Roti Basket",
+      "Diet Fry",
+      "Curd Making",
+      "Child Lock"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/microwave-ovens/md07547893/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/microwave-ovens/md07547893/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/microwave-ovens/md07547893/gallery/D-03.jpg",
+      "https://www.lg.com/in/images/microwave-ovens/md07547893/gallery/D-04.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/sample-video-5",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 5 years on magnetron",
+    "energyRating": null,
+    "tags": ["Convection", "Charcoal", "Indian Cooking", "Auto Cook", "Premium"]
+  },
+  {
+    "name": "LG 28 L Convection Microwave Oven",
+    "category": "Microwave Ovens",
+    "productCode": "MC2846BV",
+    "description": "All-in-one solution with convection cooking, grilling, and reheating capabilities for your daily cooking needs.",
+    "mrp": 21990,
+    "price": 15990,
+    "specifications": {
+      "Capacity": "28 L",
+      "Type": "Convection",
+      "Power Output": "1950 W",
+      "Heating Type": "Quartz Heater",
+      "Control Type": "Touch Panel",
+      "Auto Cook Menus": "151",
+      "Cavity Material": "Stainless Steel",
+      "Dimensions": "51.2 x 47.6 x 31 cm"
+    },
+    "features": [
+      "Quartz Heater",
+      "151 Indian Auto Cook Menus",
+      "Motorized Rotisserie",
+      "Diet Fry",
+      "Curd Making",
+      "Indian Roti Basket",
+      "Stainless Steel Cavity",
+      "Child Lock",
+      "Quick Start"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/microwave-ovens/md07547856/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/microwave-ovens/md07547856/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/microwave-ovens/md07547856/gallery/D-03.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "1 year comprehensive + 5 years on magnetron",
+    "energyRating": null,
+    "tags": ["Convection", "28L", "Indian Cooking", "Budget Friendly", "Compact"]
+  },
+  {
+    "name": "LG 77 inch OLED evo G3 4K Smart TV",
+    "category": "TV",
+    "productCode": "OLED77G3PSA",
+    "description": "Gallery design meets exceptional picture quality. The brightest OLED ever with α9 Gen6 AI processor for an immersive viewing experience.",
+    "mrp": 21990,
+    "price": 549990,
+    "specifications": {
+      "Screen Size": "77 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "OLED evo",
+      "Refresh Rate": "120Hz",
+      "HDR": "Dolby Vision IQ, HDR10 Pro, HLG",
+      "Smart TV": "webOS 23",
+      "Processor": "α9 Gen6 AI Processor 4K",
+      "Sound Output": "60W",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "3",
+      "Dimensions": "170.7 x 97.8 x 2 cm"
+    },
+    "features": [
+      "Brightness Booster Max",
+      "Gallery Design with flush-to-wall mount",
+      "α9 Gen6 AI Processor 4K",
+      "Dolby Vision IQ and Dolby Atmos",
+      "NVIDIA G-SYNC, AMD FreeSync Premium, VRR",
+      "webOS 23 with AI ThinQ",
+      "Magic Remote with NFC",
+      "Filmmaker Mode",
+      "Perfect for gaming - 4x HDMI 2.1"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-03.jpg",
+      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-04.jpg",
+      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-05.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/sample-video-6",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year on panel",
+    "energyRating": "5 Star",
+    "tags": ["OLED", "77 inch", "Gallery Design", "Premium", "Gaming", "Dolby Vision IQ"]
+  },
+  {
+    "name": "LG 10.5 Kg Front Load Washing Machine with AI DD",
+    "category": "Washing Machine",
+    "productCode": "FHV1410ZWW",
+    "description": "Extra large capacity with AI Direct Drive technology detects fabric texture for optimal washing performance.",
+    "mrp": 21990,
+    "price": 64990,
+    "specifications": {
+      "Capacity": "10.5 Kg",
+      "Type": "Front Load",
+      "Energy Rating": "5 Star",
+      "Motor Type": "Inverter Direct Drive",
+      "Wash Programs": "14",
+      "Spin Speed": "1400 RPM",
+      "Display": "LED",
+      "Dimensions": "60 x 69 x 85 cm"
+    },
+    "features": [
+      "AI Direct Drive with 18% more fabric care",
+      "TurboWash 360",
+      "Steam wash with Allergy Care",
+      "6 Motion DD technology",
+      "Add Item function",
+      "SmartThinQ app compatible",
+      "Smart Diagnosis",
+      "Tempered Glass door",
+      "Auto Restart",
+      "Child Lock"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/washing-machines/md07551798/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551798/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551798/gallery/D-03.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551798/gallery/D-04.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI DD", "Large Capacity", "Steam", "Premium"]
+  },
+  {
+    "name": "LG 8 Kg Semi-Automatic Washing Machine",
+    "category": "Washing Machine",
+    "productCode": "P8035SGMZ",
+    "description": "Wind Jet Dry technology ensures faster drying with powerful air circulation.",
+    "mrp": 21990,
+    "price": 13990,
+    "specifications": {
+      "Capacity": "8 Kg",
+      "Type": "Semi-Automatic",
+      "Energy Rating": "4 Star",
+      "Motor Type": "Normal",
+      "Wash Programs": "3",
+      "Spin Speed": "1300 RPM",
+      "Display": "Mechanical",
+      "Dimensions": "77.5 x 45.5 x 88.5 cm"
+    },
+    "features": [
+      "Wind Jet Dry technology",
+      "Collar Scrubber",
+      "Rat Away technology",
+      "Soak function",
+      "3 wash programs",
+      "Auto Restart",
+      "Rust-proof plastic body",
+      "Roller Jet Pulsator"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/washing-machines/md07551435/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551435/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/washing-machines/md07551435/gallery/D-03.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "2 years on product + 5 years on motor",
+    "energyRating": "4 Star",
+    "tags": ["Semi-Automatic", "Wind Jet Dry", "Budget", "8 Kg"]
+  },
+  {
+    "name": "LG 687 L Frost Free French Door Refrigerator",
+    "category": "Refrigerator",
+    "productCode": "GC-X257CQES",
+    "description": "InstaView Door-in-Door with UVnano technology for hygienic water dispensing and premium food preservation.",
+    "mrp": 21990,
+    "price": 129990,
+    "specifications": {
+      "Capacity": "687 L",
+      "Type": "French Door",
+      "Defrost Type": "Frost Free",
+      "Compressor Type": "Inverter Linear Compressor",
+      "Energy Rating": "3 Star",
+      "Shelves": "Toughened Glass",
+      "Ice Maker": "Craft Ice",
+      "Water Dispenser": "UVnano",
+      "Dimensions": "91.2 x 73.5 x 179 cm"
+    },
+    "features": [
+      "InstaView Door-in-Door",
+      "UVnano Water Dispenser",
+      "Craft Ice Maker - slow melting round ice",
+      "Door Cooling+",
+      "Multi Air Flow",
+      "Hygiene Fresh+",
+      "Smart Inverter Compressor",
+      "SmartThinQ app compatible",
+      "Smart Diagnosis",
+      "Moist Balance Crisper"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/refrigerators/md07553387/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553387/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553387/gallery/D-03.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553387/gallery/D-04.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553387/gallery/D-05.jpg"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/sample-video-7",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on compressor",
+    "energyRating": "3 Star",
+    "tags": ["French Door", "InstaView", "UVnano", "Premium", "Craft Ice"]
+  },
+  {
+    "name": "LG 190 L Single Door Refrigerator",
+    "category": "Refrigerator",
+    "productCode": "GL-B201APZY",
+    "description": "Compact and efficient refrigerator with Smart Inverter Compressor for energy savings and silent operation.",
+    "mrp": 21990,
+    "price": 17990,
+    "specifications": {
+      "Capacity": "190 L",
+      "Type": "Single Door",
+      "Defrost Type": "Direct Cool",
+      "Compressor Type": "Smart Inverter Compressor",
+      "Energy Rating": "4 Star",
+      "Shelves": "Toughened Glass",
+      "Dimensions": "54.2 x 57.4 x 118.4 cm"
+    },
+    "features": [
+      "Smart Inverter Compressor",
+      "Base Stand Drawer",
+      "Moist Balance Crisper",
+      "Anti-bacterial gasket",
+      "Stabilizer Free Operation",
+      "Smart Connect",
+      "Toughened Glass Shelves",
+      "Fastest Ice Making"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/refrigerators/md07553109/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553109/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/refrigerators/md07553109/gallery/D-03.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on compressor",
+    "energyRating": "4 Star",
+    "tags": ["Single Door", "Compact", "Smart Inverter", "Budget Friendly"]
+  },
+  {
+    "name": "LG 32 L Convection Microwave Oven",
+    "category": "Microwave Ovens",
+    "productCode": "MC3286BRUM",
+    "description": "Versatile microwave with Charcoal Heater for Indian cooking and healthy diet frying options.",
+    "mrp": 21990,
+    "price": 18990,
+    "specifications": {
+      "Capacity": "32 L",
+      "Type": "Convection",
+      "Power Output": "1950 W",
+      "Heating Type": "Charcoal Lighting Heater",
+      "Control Type": "Touch Panel",
+      "Auto Cook Menus": "301",
+      "Cavity Material": "Stainless Steel",
+      "Dimensions": "52.3 x 48.4 x 31 cm"
+    },
+    "features": [
+      "Charcoal Lighting Heater",
+      "301 Indian Auto Cook Menus",
+      "Motorized Rotisserie",
+      "Tandoor Technology",
+      "Diet Fry",
+      "Curd Making",
+      "Indian Roti Basket",
+      "Stainless Steel Cavity",
+      "Child Lock",
+      "Quick Start"
+    ],
+    "images": [
+      "https://www.lg.com/in/images/microwave-ovens/md07547871/gallery/D-01.jpg",
+      "https://www.lg.com/in/images/microwave-ovens/md07547871/gallery/D-02.jpg",
+      "https://www.lg.com/in/images/microwave-ovens/md07547871/gallery/D-03.jpg"
+    ],
+    "videoUrl": null,
+    "inStock": true,
+    "warranty": "1 year comprehensive + 5 years on magnetron",
+    "energyRating": null,
+    "tags": ["Convection", "Charcoal", "32L", "Indian Cooking", "Mid Range"]
+  }
+]
