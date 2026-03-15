@@ -19,12 +19,13 @@ import TV from './pages/TV';
 import WashingMachine from './pages/WashingMachine';
 import AC from './pages/AC';
 import LGAudio from './pages/LGAudio';
-import VisiCooler from './pages/VisiCooler';
-import DeepFreezer from './pages/DeepFreezer';
+// import VisiCooler from './pages/VisiCooler';
+// import DeepFreezer from './pages/DeepFreezer';
+import WaterPurifier from './pages/WaterPurifier';
 import Refrigerator from './pages/Refrigerator';
 import Dishwashers from './pages/Dishwashers';
 import MicrowaveOvens from './pages/MicrowaveOvens';
-import Homeware from './pages/Homeware';
+// import Homeware from './pages/Homeware';
 import Gallery from './pages/Gallery';
 import BulkEnquiry from './pages/BulkEnquiry';
 import Contact from './pages/Contact';
@@ -54,7 +55,7 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/products" element={<AllProducts />} />
+        {/* <Route path="/products" element={<AllProducts />} /> */}
         <Route path="/products/tv" element={<TV />} />
         <Route path="/products/ac" element={<AC />} />
         <Route path="/products/washing-machine" element={<WashingMachine />} />
@@ -62,9 +63,10 @@ function AppContent() {
         <Route path="/products/dishwashers" element={<Dishwashers />} />
         <Route path="/products/microwave-ovens" element={<MicrowaveOvens />} />
         <Route path="/products/audio" element={<LGAudio />} />
-        <Route path="/products/freezer" element={<DeepFreezer />} />
-        <Route path="/products/visi" element={<VisiCooler />} />
-        <Route path="/products/homeware" element={<Homeware />} />
+        {/* <Route path="/products/freezer" element={<DeepFreezer />} /> */}
+        {/* <Route path="/products/visi" element={<VisiCooler />} /> */}
+        {/* <Route path="/products/homeware" element={<Homeware />} /> */}
+        <Route path="/products/water-purifier" element={<WaterPurifier />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/bulk-enquiry" element={<BulkEnquiry />} />
         <Route path="/contact" element={<Contact />} />
@@ -78,6 +80,7 @@ function AppContent() {
 function App() {
   return (
     <ThemeContextProvider>
+
       <ProductProvider>
         <AppContent />
       </ProductProvider>

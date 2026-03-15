@@ -25,7 +25,7 @@ import { getProductsByCategory } from '../services/productService';
 import { fadeInUp } from '../styles/animations';
 import ParallaxSvgBackground from '../components/common/ParallaxSvgBackground';
 
-const WashingMachine = () => {
+const WaterPurifier = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
@@ -35,24 +35,27 @@ const WashingMachine = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('newest');
 
-  // ── Price boundaries derived from the loaded products (dynamic) ────────────
-  const [priceRange, setPriceRange] = useState({ min: 0, max: 300000 });
+  // ── Dynamic price range – recomputed on every filter change ────────────────
   const [filteredPriceRange, setFilteredPriceRange] = useState({ min: 0, max: 0 });
 
   const [filters, setFilters] = useState({
     minPrice: undefined,
     maxPrice: undefined,
     inStock: undefined,
-    // Washing Machine specific — all multi-select arrays except boolean flags
-    washType: undefined,      // string[]  e.g. ['Front Load', 'Top Load']
-    capacity: undefined,      // number[]  e.g. [8, 9, 10]
-    motor: undefined,         // string[]  e.g. ['AI Direct Drive']
-    energyRating: undefined,  // string[]  e.g. ['5 Star']
-    hasWifi: undefined,       // true | undefined
-    hasHeater: undefined,     // true | undefined
-    hasSteam: undefined,      // true | undefined
-    hasTurboWash: undefined,  // true | undefined
+    // WPR-specific
+    purificationTech: undefined,  // string[]  e.g. ['RO + UV + Mineral Booster']
+    hasRO: undefined,             // true | undefined
+    hasUV: undefined,             // true | undefined
+    hasUF: undefined,             // true | undefined
+    hasMineralBooster: undefined, // true | undefined
+    hasHMR: undefined,            // true | undefined
+    hasUVinTank: undefined,       // true | undefined
+    hasDigitalSterilizing: undefined, // true | undefined
+    hasTrueMaintenance: undefined,    // true | undefined
+    hasGlassTouch: undefined,         // true | undefined
+    isNonElectric: undefined,         // true | undefined
   });
+
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [enquiryProduct, setEnquiryProduct] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
@@ -70,22 +73,15 @@ const WashingMachine = () => {
   const fetchProducts = async () => {
     try {
       setLoading(true);
-      const data = await getProductsByCategory('Washing Machine');
+      const data = await getProductsByCategory('Water Purifier');
       setProducts(data);
 
-      // ── Derive dynamic price range once products load ──────────────────────
-      // Each product has a top-level `mrp` and `price` field.
-      // We expose the MRP as the ceiling for the slider.
-      const allMrps = data
-        .map(p => p.mrp ?? p.price ?? 0)
-        .filter(v => v > 0);
-
+      const allMrps = data.map(p => p.mrp ?? p.price ?? 0).filter(v => v > 0);
       if (allMrps.length > 0) {
-        const rawMax = Math.max(...allMrps);
-        const roundedMax = Math.ceil(rawMax / 50000) * 50000;
-        setPriceRange({ min: 0, max: roundedMax });
-        // Reset the filter to the full new range
-        setFilters(prev => ({ ...prev, minPrice: undefined, maxPrice: undefined }));
+        setFilteredPriceRange({
+          min: Math.floor(Math.min(...allMrps) / 1000) * 1000,
+          max: Math.ceil(Math.max(...allMrps) / 5000) * 5000,
+        });
       }
     } catch (error) {
       console.error('Error fetching products:', error);
@@ -107,9 +103,7 @@ const WashingMachine = () => {
       );
     }
 
-    // ── Price range ─────────────────────────────────────────────────────────
-    // Use `mrp` as the reference price so the slider aligns with what
-    // FilterPanel computes. Fall back to `price` if `mrp` is absent.
+    // ── Price range ──────────────────────────────────────────────────────────
     if (filters.minPrice !== undefined) {
       result = result.filter(p => (p.mrp ?? p.price ?? 0) >= filters.minPrice);
     }
@@ -118,68 +112,69 @@ const WashingMachine = () => {
     }
 
     // ── In stock ─────────────────────────────────────────────────────────────
-    // `inStock` may be a boolean on the product; treat any truthy value as in-stock.
     if (filters.inStock === true) {
       result = result.filter(p => p.inStock === true);
     }
 
-    // ── Machine Type (multi-select) ──────────────────────────────────────────
-    if (filters.washType?.length) {
+    // ── Purification Technology (multi-select) ───────────────────────────────
+    if (filters.purificationTech?.length) {
       result = result.filter(p =>
-        filters.washType.includes(p.specifications?.['Type'])
+        filters.purificationTech.includes(p.specifications?.['Purification Technology'])
       );
-    }
-
-    // ── Capacity (multi-select, match on wash/primary capacity) ─────────────
-    if (filters.capacity?.length) {
-      result = result.filter(p => {
-        const cap = p.specifications?.['Capacity'] ?? '';
-        const match = cap.match(/^(\d+(?:\.\d+)?)/);
-        const primaryCap = match ? parseFloat(match[1]) : null;
-        return primaryCap !== null && filters.capacity.includes(primaryCap);
-      });
-    }
-
-    // ── Motor / Drive Technology (multi-select) ──────────────────────────────
-    if (filters.motor?.length) {
-      result = result.filter(p => {
-        const motor = p.specifications?.['Motor Type'] ?? '';
-        let normalised = motor;
-        if (motor.includes('AI Direct Drive')) normalised = 'AI Direct Drive';
-        else if (motor.includes('Smart Inverter')) normalised = 'Smart Inverter';
-        else if (motor.includes('Inverter Direct Drive')) normalised = 'Inverter Direct Drive';
-        return filters.motor.includes(normalised);
-      });
-    }
-
-    // ── Energy Rating (multi-select) ─────────────────────────────────────────
-    if (filters.energyRating?.length) {
-      result = result.filter(p => filters.energyRating.includes(p.energyRating));
     }
 
     // ── Feature flags ────────────────────────────────────────────────────────
-    if (filters.hasWifi) {
+    if (filters.hasRO) {
       result = result.filter(p =>
-        p.specifications?.['WiFi']?.toLowerCase().includes('yes') ||
-        p.tags?.includes('Wi-Fi')
+        p.specifications?.['RO Membrane'] === 'Yes' || p.tags?.includes('RO')
       );
     }
-    if (filters.hasHeater) {
+    if (filters.hasUV) {
       result = result.filter(p =>
-        p.specifications?.['In-built Heater'] === 'Yes' ||
-        p.tags?.includes('In-built Heater')
+        p.specifications?.['UV Purification'] === 'Yes' || p.tags?.includes('UV')
       );
     }
-    if (filters.hasSteam) {
+    if (filters.hasUF) {
       result = result.filter(p =>
-        p.features?.some(f => f.toLowerCase().includes('steam')) ||
-        p.tags?.some(t => t.toLowerCase().includes('steam'))
+        p.specifications?.['UF Purification'] === 'Yes' || p.tags?.includes('UF')
       );
     }
-    if (filters.hasTurboWash) {
+    if (filters.hasMineralBooster) {
       result = result.filter(p =>
-        p.tags?.includes('TurboWash') ||
-        p.features?.some(f => f.toLowerCase().includes('turbowash'))
+        p.specifications?.['Mineral Booster'] === 'Yes' || p.tags?.includes('Mineral Booster')
+      );
+    }
+    if (filters.hasHMR) {
+      result = result.filter(p =>
+        p.specifications?.['Heavy Metal Removal'] === 'Yes' || p.tags?.includes('HMR')
+      );
+    }
+    if (filters.hasUVinTank) {
+      result = result.filter(p =>
+        p.specifications?.['UV in Tank'] === 'Yes' || p.tags?.includes('UV in Tank')
+      );
+    }
+    if (filters.hasDigitalSterilizing) {
+      result = result.filter(p =>
+        p.specifications?.['Digital Sterilizing Care'] === 'Yes' ||
+        p.tags?.includes('Digital Sterilizing Care')
+      );
+    }
+    if (filters.hasTrueMaintenance) {
+      result = result.filter(p =>
+        p.specifications?.['True Maintenance'] === 'Yes' ||
+        p.tags?.includes('True Maintenance')
+      );
+    }
+    if (filters.hasGlassTouch) {
+      result = result.filter(p =>
+        p.specifications?.['Glass Touch Display'] === 'Yes' ||
+        p.tags?.includes('Glass Touch Display')
+      );
+    }
+    if (filters.isNonElectric) {
+      result = result.filter(p =>
+        p.specifications?.['Electricity Required'] === 'No'
       );
     }
 
@@ -203,6 +198,7 @@ const WashingMachine = () => {
         break;
     }
 
+    // ── Recompute price range EXCLUDING price filter (no feedback loop) ──────
     let priceRangeBase = [...products];
 
     if (searchTerm) {
@@ -216,60 +212,69 @@ const WashingMachine = () => {
     if (filters.inStock === true) {
       priceRangeBase = priceRangeBase.filter(p => p.inStock === true);
     }
-    if (filters.washType?.length) {
-      priceRangeBase = priceRangeBase.filter(p => filters.washType.includes(p.specifications?.['Type']));
-    }
-    if (filters.capacity?.length) {
-      priceRangeBase = priceRangeBase.filter(p => {
-        const cap = p.specifications?.['Capacity'] ?? '';
-        const match = cap.match(/^(\d+(?:\.\d+)?)/);
-        const primaryCap = match ? parseFloat(match[1]) : null;
-        return primaryCap !== null && filters.capacity.includes(primaryCap);
-      });
-    }
-    if (filters.motor?.length) {
-      priceRangeBase = priceRangeBase.filter(p => {
-        const motor = p.specifications?.['Motor Type'] ?? '';
-        let normalised = motor;
-        if (motor.includes('AI Direct Drive')) normalised = 'AI Direct Drive';
-        else if (motor.includes('Smart Inverter')) normalised = 'Smart Inverter';
-        else if (motor.includes('Inverter Direct Drive')) normalised = 'Inverter Direct Drive';
-        return filters.motor.includes(normalised);
-      });
-    }
-    if (filters.energyRating?.length) {
-      priceRangeBase = priceRangeBase.filter(p => filters.energyRating.includes(p.energyRating));
-    }
-    if (filters.hasWifi) {
+    if (filters.purificationTech?.length) {
       priceRangeBase = priceRangeBase.filter(p =>
-        p.specifications?.['WiFi']?.toLowerCase().includes('yes') || p.tags?.includes('Wi-Fi')
+        filters.purificationTech.includes(p.specifications?.['Purification Technology'])
       );
     }
-    if (filters.hasHeater) {
+    if (filters.hasRO) {
       priceRangeBase = priceRangeBase.filter(p =>
-        p.specifications?.['In-built Heater'] === 'Yes' || p.tags?.includes('In-built Heater')
+        p.specifications?.['RO Membrane'] === 'Yes' || p.tags?.includes('RO')
       );
     }
-    if (filters.hasSteam) {
+    if (filters.hasUV) {
       priceRangeBase = priceRangeBase.filter(p =>
-        p.features?.some(f => f.toLowerCase().includes('steam')) ||
-        p.tags?.some(t => t.toLowerCase().includes('steam'))
+        p.specifications?.['UV Purification'] === 'Yes' || p.tags?.includes('UV')
       );
     }
-    if (filters.hasTurboWash) {
+    if (filters.hasUF) {
       priceRangeBase = priceRangeBase.filter(p =>
-        p.tags?.includes('TurboWash') ||
-        p.features?.some(f => f.toLowerCase().includes('turbowash'))
+        p.specifications?.['UF Purification'] === 'Yes' || p.tags?.includes('UF')
+      );
+    }
+    if (filters.hasMineralBooster) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['Mineral Booster'] === 'Yes' || p.tags?.includes('Mineral Booster')
+      );
+    }
+    if (filters.hasHMR) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['Heavy Metal Removal'] === 'Yes' || p.tags?.includes('HMR')
+      );
+    }
+    if (filters.hasUVinTank) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['UV in Tank'] === 'Yes' || p.tags?.includes('UV in Tank')
+      );
+    }
+    if (filters.hasDigitalSterilizing) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['Digital Sterilizing Care'] === 'Yes' ||
+        p.tags?.includes('Digital Sterilizing Care')
+      );
+    }
+    if (filters.hasTrueMaintenance) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['True Maintenance'] === 'Yes' || p.tags?.includes('True Maintenance')
+      );
+    }
+    if (filters.hasGlassTouch) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['Glass Touch Display'] === 'Yes' ||
+        p.tags?.includes('Glass Touch Display')
+      );
+    }
+    if (filters.isNonElectric) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['Electricity Required'] === 'No'
       );
     }
 
     const visibleMrps = priceRangeBase.map(p => p.mrp ?? p.price ?? 0).filter(v => v > 0);
     if (visibleMrps.length > 0) {
-      const rawMax = Math.max(...visibleMrps);
-      const rawMin = Math.min(...visibleMrps);
       setFilteredPriceRange({
-        min: Math.floor(rawMin / 5000) * 5000,
-        max: Math.ceil(rawMax / 50000) * 50000,
+        min: Math.floor(Math.min(...visibleMrps) / 1000) * 1000,
+        max: Math.ceil(Math.max(...visibleMrps) / 5000) * 5000,
       });
     }
 
@@ -285,14 +290,17 @@ const WashingMachine = () => {
       minPrice: undefined,
       maxPrice: undefined,
       inStock: undefined,
-      washType: undefined,
-      capacity: undefined,
-      motor: undefined,
-      energyRating: undefined,
-      hasWifi: undefined,
-      hasHeater: undefined,
-      hasSteam: undefined,
-      hasTurboWash: undefined,
+      purificationTech: undefined,
+      hasRO: undefined,
+      hasUV: undefined,
+      hasUF: undefined,
+      hasMineralBooster: undefined,
+      hasHMR: undefined,
+      hasUVinTank: undefined,
+      hasDigitalSterilizing: undefined,
+      hasTrueMaintenance: undefined,
+      hasGlassTouch: undefined,
+      isNonElectric: undefined,
     });
     setSearchTerm('');
     setSortBy('newest');
@@ -309,7 +317,7 @@ const WashingMachine = () => {
   };
 
   if (loading) {
-    return <Loader message="Loading Washing Machines..." />;
+    return <Loader message="Loading Water Purifiers..." />;
   }
 
   const filterPanel = (
@@ -317,9 +325,8 @@ const WashingMachine = () => {
       filters={filters}
       onFilterChange={handleFilterChange}
       onReset={handleResetFilters}
-      category="Washing Machine"
+      category="Water Purifier"
       products={products}
-      // Pass the dynamically computed price range so FilterPanel slider is in sync
       priceMin={filteredPriceRange.min}
       priceMax={filteredPriceRange.max}
     />
@@ -332,17 +339,17 @@ const WashingMachine = () => {
           <Container maxWidth="xl">
             <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
               <Typography variant="h3" component="h1" gutterBottom fontWeight={700}>
-                LG Washing Machines
+                LG Water Purifiers
               </Typography>
               <Typography variant="body1" color="text.secondary" paragraph>
-                Front load, top load, semi-automatic, washer-dryers & WashTowers
+                PuriCare water purifiers with RO, UV, UF, Mineral Booster, Digital Sterilizing Care, and Stainless Steel Tank technology
               </Typography>
             </motion.div>
 
             <Paper elevation={0} sx={{ p: 2, mb: 3, borderRadius: 3, border: '1px solid', borderColor: 'divider' }}>
               <Grid container spacing={2} alignItems="center">
                 <Grid item xs={12} md={8}>
-                  <SearchBar onSearch={handleSearch} placeholder="Search washing machines..." />
+                  <SearchBar onSearch={handleSearch} placeholder="Search water purifiers..." />
                 </Grid>
                 <Grid item xs={12} md={4}>
                   <SortDropdown value={sortBy} onChange={handleSortChange} />
@@ -413,4 +420,4 @@ const WashingMachine = () => {
   );
 };
 
-export default WashingMachine;
+export default WaterPurifier;

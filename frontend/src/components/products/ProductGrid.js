@@ -4,7 +4,7 @@ import ProductCard from './ProductCard';
 import { motion } from 'framer-motion';
 import { stagger } from '../../styles/animations';
 
-const ProductGrid = ({ products, onViewDetails, onEnquire }) => {
+const ProductGrid = ({ products, onViewDetails, onEnquire, filterScreenSize }) => {
   if (!products || products.length === 0) {
     return (
       <Box
@@ -40,6 +40,7 @@ const ProductGrid = ({ products, onViewDetails, onEnquire }) => {
               product={product}
               onViewDetails={onViewDetails}
               onEnquire={onEnquire}
+              filterScreenSize={filterScreenSize}
             />
           </Grid>
         ))}

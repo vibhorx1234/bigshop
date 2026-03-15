@@ -1,5 +1,5 @@
 export const CATEGORIES = [
-  { name: 'All', path: '/products', value: 'All' },
+  // { name: 'All', path: '/products', value: 'All' },
   { name: 'TV', path: '/products/tv', value: 'TV' },
   { name: 'AC', path: '/products/ac', value: 'AC' },
   { name: 'Washing Machine', path: '/products/washing-machine', value: 'Washing Machine' },
@@ -7,9 +7,10 @@ export const CATEGORIES = [
   { name: 'Dishwashers', path: '/products/dishwashers', value: 'Dishwashers' },
   { name: 'Microwave Ovens', path: '/products/microwave-ovens', value: 'Microwave Ovens' },
   { name: 'LG Audio', path: '/products/audio', value: 'LG Audio' },
-  { name: 'Deep Freezer', path: '/products/freezer', value: 'Deep Freezer' },
-  { name: 'Visi Cooler', path: '/products/visi', value: 'Visi Cooler' },
-  { name: 'Homeware', path: '/products/homeware', value: 'Homeware' }
+  { name: 'Water Purifier', path: '/products/water-purifier', value: 'Water Purifier' }
+  // { name: 'Deep Freezer', path: '/products/freezer', value: 'Deep Freezer' },
+  // { name: 'Visi Cooler', path: '/products/visi', value: 'Visi Cooler' },
+  // { name: 'Homeware', path: '/products/homeware', value: 'Homeware' }
 ];
 
 export const SORT_OPTIONS = [

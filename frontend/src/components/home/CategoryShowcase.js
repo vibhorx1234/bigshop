@@ -18,7 +18,8 @@ import {
   AcUnit,
   Speaker,
   LocalDrink,
-  HomeOutlined
+  HomeOutlined,
+  WaterDrop
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -76,26 +77,33 @@ const categories = [
     color: '#FF4C4C',
   },
   {
-    name: 'Deep Freezer',
-    icon: Kitchen,
-    path: '/products/freezer',
-    description: 'Reliable storage for businesses.',
-    color: '#2ECC71',
-  },
-  {
-    name: 'Visi Cooler',
-    icon: LocalDrink,
-    path: '/products/visi',
-    description: 'Crystalline coolers for beverages.',
-    color: '#F1C40F',
-  },
-  {
-    name: 'Homeware',
-    icon: HomeOutlined,  // from @mui/icons-material
-    path: '/products/homeware',
-    description: 'Everyday home comforts.',
-    color: '#8E44AD',
+    name: 'Water Purifier',
+    icon: WaterDrop,
+    path: '/products/water-purifier',
+    description: 'Clean & pure drinking water solutions',
+    color: '#29B6F6',
   }
+  // {
+  //   name: 'Deep Freezer',
+  //   icon: Kitchen,
+  //   path: '/products/freezer',
+  //   description: 'Reliable storage for businesses.',
+  //   color: '#2ECC71',
+  // },
+  // {
+  //   name: 'Visi Cooler',
+  //   icon: LocalDrink,
+  //   path: '/products/visi',
+  //   description: 'Crystalline coolers for beverages.',
+  //   color: '#F1C40F',
+  // },
+  // {
+  //   name: 'Homeware',
+  //   icon: HomeOutlined,  // from @mui/icons-material
+  //   path: '/products/homeware',
+  //   description: 'Everyday home comforts.',
+  //   color: '#8E44AD',
+  // }
 
 ];
 
@@ -137,7 +145,7 @@ const CategoryShowcase = () => {
             {categories.map((category, index) => {
               const Icon = category.icon;
               return (
-                <Grid item xs={12} sm={6} md={4} lg={2.4} key={category.name}>
+                <Grid item xs={12} sm={6} md={4} lg={3} key={category.name}>
                   <AnimatedCard
                     component={motion.div}
                     variants={fadeInUp}

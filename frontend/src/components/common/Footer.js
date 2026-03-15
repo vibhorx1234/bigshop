@@ -238,9 +238,10 @@ const PRODUCTS = [
   { name: 'Dishwashers', path: '/products/dishwashers' },
   { name: 'Microwave Ovens', path: '/products/microwave-ovens' },
   { name: 'LG Audio', path: '/products/audio' },
-  { name: 'Deep Freezer', path: '/products/freezer' },
-  { name: 'Visi Cooler', path: '/products/visi' },
-  { name: 'Homeware', path: '/products/homeware' }
+  { name: 'Water Purifier', path: '/products/water-purifier' }
+  // { name: 'Deep Freezer', path: '/products/freezer' },
+  // { name: 'Visi Cooler', path: '/products/visi' },
+  // { name: 'Homeware', path: '/products/homeware' }
 ];
 
 const Footer = () => {
@@ -314,7 +315,7 @@ const Footer = () => {
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
                 <Link component={RouterLink} to="/" color="text.secondary" underline="hover">Home</Link>
                 <Link component={RouterLink} to="/about" color="text.secondary" underline="hover">About Us</Link>
-                <Link component={RouterLink} to="/products" color="text.secondary" underline="hover">Products</Link>
+                {/* <Link component={RouterLink} to="/products" color="text.secondary" underline="hover">Products</Link> */}
                 <Link component={RouterLink} to="/bulk-enquiry" color="text.secondary" underline="hover">Bulk Enquiry</Link>
                 <Link component={RouterLink} to="/contact" color="text.secondary" underline="hover">Contact</Link>
               </Box>

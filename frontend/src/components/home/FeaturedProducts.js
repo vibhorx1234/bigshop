@@ -87,14 +87,14 @@ const FeaturedProducts = () => {
               </Typography>
             </Box>
 
-            <Button
+            {/* <Button
               variant="outlined"
               endIcon={<ArrowForward />}
               onClick={() => navigate('/products')}
               size="large"
             >
               View All Products
-            </Button>
+            </Button> */}
           </Box>
         </motion.div>
 

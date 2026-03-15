@@ -34,11 +34,23 @@ const Dishwashers = () => {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('newest');
+
+  // ── Dynamic price range — recomputed on every filter change ────────────────
+  const [filteredPriceRange, setFilteredPriceRange] = useState({ min: 0, max: 0 });
+
   const [filters, setFilters] = useState({
     minPrice: undefined,
     maxPrice: undefined,
-    inStock: undefined
+    inStock: undefined,
+    // Dishwasher-specific
+    dwType: undefined,          // string[]  e.g. ['Free Standing']
+    placeSettings: undefined,   // number[]  e.g. [14, 15]
+    hasTrueSteam: undefined,    // true | undefined
+    hasQuadWash: undefined,     // true | undefined
+    hasAutoOpenDoor: undefined, // true | undefined
+    hasWifi: undefined,         // true | undefined
   });
+
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [enquiryProduct, setEnquiryProduct] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
@@ -58,6 +70,15 @@ const Dishwashers = () => {
       setLoading(true);
       const data = await getProductsByCategory('Dishwashers');
       setProducts(data);
+
+      // Set initial price range from full product list
+      const allMrps = data.map(p => p.mrp ?? p.price ?? 0).filter(v => v > 0);
+      if (allMrps.length > 0) {
+        setFilteredPriceRange({
+          min: Math.floor(Math.min(...allMrps) / 5000) * 5000,
+          max: Math.ceil(Math.max(...allMrps) / 50000) * 50000,
+        });
+      }
     } catch (error) {
       console.error('Error fetching products:', error);
     } finally {
@@ -68,29 +89,77 @@ const Dishwashers = () => {
   const applyFiltersAndSort = () => {
     let result = [...products];
 
+    // ── Text search ──────────────────────────────────────────────────────────
     if (searchTerm) {
-      result = result.filter(product =>
-        product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchTerm.toLowerCase())
+      const term = searchTerm.toLowerCase();
+      result = result.filter(p =>
+        p.name.toLowerCase().includes(term) ||
+        p.description?.toLowerCase().includes(term) ||
+        p.tags?.some(t => t.toLowerCase().includes(term))
       );
     }
 
+    // ── Price range ──────────────────────────────────────────────────────────
     if (filters.minPrice !== undefined) {
-      result = result.filter(product => product.price >= filters.minPrice);
+      result = result.filter(p => (p.mrp ?? p.price ?? 0) >= filters.minPrice);
     }
     if (filters.maxPrice !== undefined) {
-      result = result.filter(product => product.price <= filters.maxPrice);
-    }
-    if (filters.inStock !== undefined) {
-      result = result.filter(product => product.inStock === filters.inStock);
+      result = result.filter(p => (p.mrp ?? p.price ?? 0) <= filters.maxPrice);
     }
 
+    // ── In stock ─────────────────────────────────────────────────────────────
+    if (filters.inStock === true) {
+      result = result.filter(p => p.inStock === true);
+    }
+
+    // ── Dishwasher Type (multi-select) ───────────────────────────────────────
+    if (filters.dwType?.length) {
+      result = result.filter(p =>
+        filters.dwType.includes(p.specifications?.['Type'])
+      );
+    }
+
+    // ── Place Settings (multi-select) ────────────────────────────────────────
+    if (filters.placeSettings?.length) {
+      result = result.filter(p => {
+        const ps = parseInt(p.specifications?.['Place Settings'] ?? '0');
+        return filters.placeSettings.includes(ps);
+      });
+    }
+
+    // ── Feature flags ────────────────────────────────────────────────────────
+    if (filters.hasTrueSteam) {
+      result = result.filter(p =>
+        p.tags?.includes('TrueSteam') ||
+        p.features?.some(f => f.toLowerCase().includes('truesteam'))
+      );
+    }
+    if (filters.hasQuadWash) {
+      result = result.filter(p =>
+        p.tags?.includes('QuadWash') ||
+        p.features?.some(f => f.toLowerCase().includes('quadwash'))
+      );
+    }
+    if (filters.hasAutoOpenDoor) {
+      result = result.filter(p =>
+        p.specifications?.['Auto Open Door'] === 'Yes' ||
+        p.tags?.includes('Auto Open Door')
+      );
+    }
+    if (filters.hasWifi) {
+      result = result.filter(p =>
+        p.specifications?.['WiFi']?.toLowerCase().includes('yes') ||
+        p.tags?.includes('Wi-Fi')
+      );
+    }
+
+    // ── Sort ─────────────────────────────────────────────────────────────────
     switch (sortBy) {
       case 'price-low-high':
-        result.sort((a, b) => a.price - b.price);
+        result.sort((a, b) => (a.price ?? a.mrp ?? 0) - (b.price ?? b.mrp ?? 0));
         break;
       case 'price-high-low':
-        result.sort((a, b) => b.price - a.price);
+        result.sort((a, b) => (b.price ?? b.mrp ?? 0) - (a.price ?? a.mrp ?? 0));
         break;
       case 'name-a-z':
         result.sort((a, b) => a.name.localeCompare(b.name));
@@ -104,26 +173,84 @@ const Dishwashers = () => {
         break;
     }
 
+    // ── Recompute price range from results EXCLUDING the price filter itself ─
+    // This ensures the slider bounds reflect only the other active filters,
+    // avoiding a feedback loop where dragging shrinks its own range.
+    let priceRangeBase = [...products];
+
+    if (searchTerm) {
+      const term = searchTerm.toLowerCase();
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.name.toLowerCase().includes(term) ||
+        p.description?.toLowerCase().includes(term) ||
+        p.tags?.some(t => t.toLowerCase().includes(term))
+      );
+    }
+    if (filters.inStock === true) {
+      priceRangeBase = priceRangeBase.filter(p => p.inStock === true);
+    }
+    if (filters.dwType?.length) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        filters.dwType.includes(p.specifications?.['Type'])
+      );
+    }
+    if (filters.placeSettings?.length) {
+      priceRangeBase = priceRangeBase.filter(p => {
+        const ps = parseInt(p.specifications?.['Place Settings'] ?? '0');
+        return filters.placeSettings.includes(ps);
+      });
+    }
+    if (filters.hasTrueSteam) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.tags?.includes('TrueSteam') ||
+        p.features?.some(f => f.toLowerCase().includes('truesteam'))
+      );
+    }
+    if (filters.hasQuadWash) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.tags?.includes('QuadWash') ||
+        p.features?.some(f => f.toLowerCase().includes('quadwash'))
+      );
+    }
+    if (filters.hasAutoOpenDoor) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['Auto Open Door'] === 'Yes' ||
+        p.tags?.includes('Auto Open Door')
+      );
+    }
+    if (filters.hasWifi) {
+      priceRangeBase = priceRangeBase.filter(p =>
+        p.specifications?.['WiFi']?.toLowerCase().includes('yes') ||
+        p.tags?.includes('Wi-Fi')
+      );
+    }
+
+    const visibleMrps = priceRangeBase.map(p => p.mrp ?? p.price ?? 0).filter(v => v > 0);
+    if (visibleMrps.length > 0) {
+      setFilteredPriceRange({
+        min: Math.floor(Math.min(...visibleMrps) / 5000) * 5000,
+        max: Math.ceil(Math.max(...visibleMrps) / 50000) * 50000,
+      });
+    }
+
     setFilteredProducts(result);
   };
 
-  const handleSearch = (term) => {
-    setSearchTerm(term);
-  };
-
-  const handleSortChange = (value) => {
-    setSortBy(value);
-  };
-
-  const handleFilterChange = (newFilters) => {
-    setFilters(newFilters);
-  };
+  const handleSearch = (term) => setSearchTerm(term);
+  const handleSortChange = (value) => setSortBy(value);
+  const handleFilterChange = (newFilters) => setFilters(newFilters);
 
   const handleResetFilters = () => {
     setFilters({
       minPrice: undefined,
       maxPrice: undefined,
-      inStock: undefined
+      inStock: undefined,
+      dwType: undefined,
+      placeSettings: undefined,
+      hasTrueSteam: undefined,
+      hasQuadWash: undefined,
+      hasAutoOpenDoor: undefined,
+      hasWifi: undefined,
     });
     setSearchTerm('');
     setSortBy('newest');
@@ -148,98 +275,97 @@ const Dishwashers = () => {
       filters={filters}
       onFilterChange={handleFilterChange}
       onReset={handleResetFilters}
+      category="Dishwashers"
+      products={products}
+      priceMin={filteredPriceRange.min}
+      priceMax={filteredPriceRange.max}
     />
   );
 
   return (
-   <ParallaxSvgBackground> 
-    <AnimatedBackground>
-      <Box sx={{ py: 4 }}>
-        <Container maxWidth="xl">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={fadeInUp}
-          >
-            <Typography variant="h3" component="h1" gutterBottom fontWeight={700}>
-              LG Dishwashers
-            </Typography>
-            <Typography variant="body1" color="text.secondary" paragraph>
-              Automated dishwashing with QuadWash and TrueSteam technology
-            </Typography>
-          </motion.div>
+    <ParallaxSvgBackground>
+      <AnimatedBackground>
+        <Box sx={{ py: 4 }}>
+          <Container maxWidth="xl">
+            <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
+              <Typography variant="h3" component="h1" gutterBottom fontWeight={700}>
+                LG Dishwashers
+              </Typography>
+              <Typography variant="body1" color="text.secondary" paragraph>
+                Automated dishwashing with QuadWash™ and TrueSteam™ technology
+              </Typography>
+            </motion.div>
 
-          <Paper elevation={0} sx={{ p: 2, mb: 3, borderRadius: 3, border: '1px solid', borderColor: 'divider' }}>
-            <Grid container spacing={2} alignItems="center">
-              <Grid item xs={12} md={8}>
-                <SearchBar onSearch={handleSearch} placeholder="Search dishwashers..." />
+            <Paper elevation={0} sx={{ p: 2, mb: 3, borderRadius: 3, border: '1px solid', borderColor: 'divider' }}>
+              <Grid container spacing={2} alignItems="center">
+                <Grid item xs={12} md={8}>
+                  <SearchBar onSearch={handleSearch} placeholder="Search dishwashers..." />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                  <SortDropdown value={sortBy} onChange={handleSortChange} />
+                </Grid>
               </Grid>
-              <Grid item xs={12} md={4}>
-                <SortDropdown value={sortBy} onChange={handleSortChange} />
-              </Grid>
-            </Grid>
-          </Paper>
+            </Paper>
 
-          {isMobile && (
-            <Box sx={{ mb: 2 }}>
-              <Button
-                fullWidth
-                variant="outlined"
-                startIcon={<FilterList />}
-                onClick={() => setFilterDrawerOpen(true)}
-              >
-                Filters
-              </Button>
-            </Box>
-          )}
-
-          <Grid container spacing={3}>
-            {!isMobile && (
-              <Grid item md={3}>
-                {filterPanel}
-              </Grid>
+            {isMobile && (
+              <Box sx={{ mb: 2 }}>
+                <Button
+                  fullWidth
+                  variant="outlined"
+                  startIcon={<FilterList />}
+                  onClick={() => setFilterDrawerOpen(true)}
+                >
+                  Filters
+                </Button>
+              </Box>
             )}
 
-            <Grid item xs={12} md={isMobile ? 12 : 9}>
-              <ProductGrid
-                products={filteredProducts}
-                onViewDetails={handleViewDetails}
-                onEnquire={handleEnquire}
-              />
+            <Grid container spacing={3}>
+              {!isMobile && (
+                <Grid item md={3}>
+                  {filterPanel}
+                </Grid>
+              )}
+              <Grid item xs={12} md={isMobile ? 12 : 9}>
+                <ProductGrid
+                  products={filteredProducts}
+                  onViewDetails={handleViewDetails}
+                  onEnquire={handleEnquire}
+                />
+              </Grid>
             </Grid>
-          </Grid>
-        </Container>
+          </Container>
 
-        <Drawer
-          anchor="left"
-          open={filterDrawerOpen}
-          onClose={() => setFilterDrawerOpen(false)}
-        >
-          <Box sx={{ width: 300, p: 2 }}>
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
-              <Typography variant="h6" fontWeight={600}>Filters</Typography>
-              <IconButton onClick={() => setFilterDrawerOpen(false)}>
-                <Close />
-              </IconButton>
+          <Drawer
+            anchor="left"
+            open={filterDrawerOpen}
+            onClose={() => setFilterDrawerOpen(false)}
+          >
+            <Box sx={{ width: 300, p: 2 }}>
+              <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
+                <Typography variant="h6" fontWeight={600}>Filters</Typography>
+                <IconButton onClick={() => setFilterDrawerOpen(false)}>
+                  <Close />
+                </IconButton>
+              </Box>
+              {filterPanel}
             </Box>
-            {filterPanel}
-          </Box>
-        </Drawer>
+          </Drawer>
 
-        <ProductModal
-          open={modalOpen}
-          product={selectedProduct}
-          onClose={() => setModalOpen(false)}
-          onEnquire={handleEnquire}
-        />
+          <ProductModal
+            open={modalOpen}
+            product={selectedProduct}
+            onClose={() => setModalOpen(false)}
+            onEnquire={handleEnquire}
+          />
 
-        <EnquiryForm
-          open={enquiryOpen}
-          product={enquiryProduct}
-          onClose={() => setEnquiryOpen(false)}
-        />
-      </Box>
-    </AnimatedBackground>
+          <EnquiryForm
+            open={enquiryOpen}
+            product={enquiryProduct}
+            onClose={() => setEnquiryOpen(false)}
+          />
+        </Box>
+      </AnimatedBackground>
     </ParallaxSvgBackground>
   );
 };

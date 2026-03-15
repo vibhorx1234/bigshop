@@ -11,9 +11,10 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import AC from './pages/AC';
 import LGAudio from './pages/LGAudio';
-import DeepFreezer from './pages/DeepFreezer';
-import VisiCooler from './pages/VisiCooler';
-import Homeware from './pages/Homeware';
+import WaterPurifier from './pages/WaterPurifier';
+// import DeepFreezer from './pages/DeepFreezer';
+// import VisiCooler from './pages/VisiCooler';
+// import Homeware from './pages/Homeware';
 
 const routes = [
   { path: '/', element: Home, name: 'Home' },
@@ -23,12 +24,13 @@ const routes = [
   { path: '/products/washing-machine', element: WashingMachine, name: 'Washing Machine' },
   { path: '/products/ac', element: AC, name: 'AC' },
   { path: '/products/audio', element: LGAudio, name: 'LG Audio' },
-  { path: '/products/freezer', element: DeepFreezer, name: 'Deep Freezer' },
-  { path: '/products/visi', element: VisiCooler, name: 'Visi Cooler' },
+  // { path: '/products/freezer', element: DeepFreezer, name: 'Deep Freezer' },
+  // { path: '/products/visi', element: VisiCooler, name: 'Visi Cooler' },
+  { path: '/products/water-purifier', element: WaterPurifier, name: 'Water Purifier' },
   { path: '/products/refrigerator', element: Refrigerator, name: 'Refrigerator' },
   { path: '/products/dishwashers', element: Dishwashers, name: 'Dishwashers' },
   { path: '/products/microwave-ovens', element: MicrowaveOvens, name: 'Microwave Ovens' },
-  { path: '/products/homeware', element: Homeware, name: 'Homeware' },
+  // { path: '/products/homeware', element: Homeware, name: 'Homeware' },
   { path: '/bulk-enquiry', element: BulkEnquiry, name: 'Bulk Enquiry' },
   { path: '/contact', element: Contact, name: 'Contact' },
   { path: '*', element: NotFound, name: 'Not Found' }

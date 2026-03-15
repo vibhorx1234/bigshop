@@ -39,48 +39,45 @@
     "inStock": true,
     "warranty": "1 year comprehensive + 1 year on panel",
     "energyRating": "5 Star",
-    "tags": ["OLED", "4K", "Smart TV", "Gaming", "Premium", "120Hz", "Dolby Vision"]
-  },
-  {
-    "name": "LG 55 inch 4K UHD Smart LED TV",
-    "category": "TV",
-    "productCode": "55UR7500PSC",
-    "description": "Immerse yourself in stunning 4K clarity with AI-powered picture enhancement and webOS smart platform for endless entertainment.",
-    "mrp": 21990,
-    "price": 54990,
-    "specifications": {
-      "Screen Size": "55 inches",
-      "Resolution": "4K Ultra HD (3840 x 2160)",
-      "Display Type": "LED",
-      "Refresh Rate": "60Hz",
-      "HDR": "HDR10, HLG",
-      "Smart TV": "webOS 23",
-      "Processor": "α5 Gen6 AI Processor 4K",
-      "Sound Output": "20W",
-      "HDMI Ports": "3",
-      "USB Ports": "2",
-      "Dimensions": "123.2 x 71.6 x 8.6 cm"
-    },
-    "features": [
-      "4K UHD resolution",
-      "α5 Gen6 AI Processor",
-      "webOS 23 Smart TV",
-      "AI Sound Pro",
-      "Filmmaker Mode",
-      "Built-in Alexa and Google Assistant",
-      "Screen Share and AirPlay 2",
-      "Game Optimizer"
+    "tags": [
+      "OLED",
+      "4K",
+      "Smart TV",
+      "Gaming",
+      "Premium",
+      "120Hz",
+      "Dolby Vision"
     ],
-    "images": [
-      "https://www.lg.com/in/images/tvs/md07577050/gallery/D-01.jpg",
-      "https://www.lg.com/in/images/tvs/md07577050/gallery/D-02.jpg",
-      "https://www.lg.com/in/images/tvs/md07577050/gallery/D-03.jpg"
-    ],
-    "videoUrl": null,
-    "inStock": true,
-    "warranty": "1 year comprehensive",
-    "energyRating": "4 Star",
-    "tags": ["LED", "4K", "Smart TV", "Budget Friendly", "webOS"]
+    "variants": [
+      {
+        "screenSize": 43,
+        "price": 89990,
+        "mrp": 95000,
+        "productCode": "OLED43C3PSA",
+        "inStock": true
+      },
+      {
+        "screenSize": 55,
+        "price": 139990,
+        "mrp": 150000,
+        "productCode": "OLED55C3PSA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 189990,
+        "mrp": 210000,
+        "productCode": "OLED65C3PSA",
+        "inStock": true
+      },
+      {
+        "screenSize": 77,
+        "price": 289990,
+        "mrp": 320000,
+        "productCode": "OLED77C3PSA",
+        "inStock": true
+      }
+    ]
   },
   {
     "name": "LG 9 Kg 5 Star Inverter Front Load Washing Machine",
@@ -119,7 +116,13 @@
     "inStock": true,
     "warranty": "2 years comprehensive + 10 years on motor",
     "energyRating": "5 Star",
-    "tags": ["Front Load", "AI DD", "Steam Wash", "Inverter", "Energy Efficient"]
+    "tags": [
+      "Front Load",
+      "AI DD",
+      "Steam Wash",
+      "Inverter",
+      "Energy Efficient"
+    ]
   },
   {
     "name": "LG 7 Kg Top Load Washing Machine",
@@ -157,7 +160,12 @@
     "inStock": true,
     "warranty": "2 years comprehensive + 10 years on motor",
     "energyRating": "5 Star",
-    "tags": ["Top Load", "Smart Inverter", "Budget Friendly", "Energy Efficient"]
+    "tags": [
+      "Top Load",
+      "Smart Inverter",
+      "Budget Friendly",
+      "Energy Efficient"
+    ]
   },
   {
     "name": "LG 655 L Frost Free Side by Side Refrigerator",
@@ -199,7 +207,13 @@
     "inStock": true,
     "warranty": "1 year comprehensive + 10 years on compressor",
     "energyRating": "3 Star",
-    "tags": ["Side by Side", "Frost Free", "Inverter", "Door Cooling", "Water Dispenser"]
+    "tags": [
+      "Side by Side",
+      "Frost Free",
+      "Inverter",
+      "Door Cooling",
+      "Water Dispenser"
+    ]
   },
   {
     "name": "LG 335 L Double Door Refrigerator",
@@ -237,7 +251,13 @@
     "inStock": true,
     "warranty": "1 year comprehensive + 10 years on compressor",
     "energyRating": "3 Star",
-    "tags": ["Double Door", "Frost Free", "Convertible", "Smart Inverter", "Mid Range"]
+    "tags": [
+      "Double Door",
+      "Frost Free",
+      "Convertible",
+      "Smart Inverter",
+      "Mid Range"
+    ]
   },
   {
     "name": "LG 15 Place Settings QuadWash Dishwasher",
@@ -278,7 +298,13 @@
     "inStock": true,
     "warranty": "2 years comprehensive + 10 years on motor",
     "energyRating": "4 Star",
-    "tags": ["QuadWash", "TrueSteam", "15 Place", "Inverter", "Premium"]
+    "tags": [
+      "QuadWash",
+      "TrueSteam",
+      "15 Place",
+      "Inverter",
+      "Premium"
+    ]
   },
   {
     "name": "LG 14 Place Settings Dishwasher",
@@ -317,7 +343,13 @@
     "inStock": true,
     "warranty": "2 years comprehensive + 10 years on motor",
     "energyRating": "3 Star",
-    "tags": ["TrueSteam", "14 Place", "Inverter", "Hygienic", "Mid Range"]
+    "tags": [
+      "TrueSteam",
+      "14 Place",
+      "Inverter",
+      "Hygienic",
+      "Mid Range"
+    ]
   },
   {
     "name": "LG 42 L Charcoal Convection Microwave Oven",
@@ -359,7 +391,13 @@
     "inStock": true,
     "warranty": "1 year comprehensive + 5 years on magnetron",
     "energyRating": null,
-    "tags": ["Convection", "Charcoal", "Indian Cooking", "Auto Cook", "Premium"]
+    "tags": [
+      "Convection",
+      "Charcoal",
+      "Indian Cooking",
+      "Auto Cook",
+      "Premium"
+    ]
   },
   {
     "name": "LG 28 L Convection Microwave Oven",
@@ -398,51 +436,13 @@
     "inStock": true,
     "warranty": "1 year comprehensive + 5 years on magnetron",
     "energyRating": null,
-    "tags": ["Convection", "28L", "Indian Cooking", "Budget Friendly", "Compact"]
-  },
-  {
-    "name": "LG 77 inch OLED evo G3 4K Smart TV",
-    "category": "TV",
-    "productCode": "OLED77G3PSA",
-    "description": "Gallery design meets exceptional picture quality. The brightest OLED ever with α9 Gen6 AI processor for an immersive viewing experience.",
-    "mrp": 21990,
-    "price": 549990,
-    "specifications": {
-      "Screen Size": "77 inches",
-      "Resolution": "4K Ultra HD (3840 x 2160)",
-      "Display Type": "OLED evo",
-      "Refresh Rate": "120Hz",
-      "HDR": "Dolby Vision IQ, HDR10 Pro, HLG",
-      "Smart TV": "webOS 23",
-      "Processor": "α9 Gen6 AI Processor 4K",
-      "Sound Output": "60W",
-      "HDMI Ports": "4 (HDMI 2.1)",
-      "USB Ports": "3",
-      "Dimensions": "170.7 x 97.8 x 2 cm"
-    },
-    "features": [
-      "Brightness Booster Max",
-      "Gallery Design with flush-to-wall mount",
-      "α9 Gen6 AI Processor 4K",
-      "Dolby Vision IQ and Dolby Atmos",
-      "NVIDIA G-SYNC, AMD FreeSync Premium, VRR",
-      "webOS 23 with AI ThinQ",
-      "Magic Remote with NFC",
-      "Filmmaker Mode",
-      "Perfect for gaming - 4x HDMI 2.1"
-    ],
-    "images": [
-      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-01.jpg",
-      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-02.jpg",
-      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-03.jpg",
-      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-04.jpg",
-      "https://www.lg.com/in/images/tvs/md07577139/gallery/D-05.jpg"
-    ],
-    "videoUrl": "https://www.youtube.com/embed/sample-video-6",
-    "inStock": true,
-    "warranty": "1 year comprehensive + 1 year on panel",
-    "energyRating": "5 Star",
-    "tags": ["OLED", "77 inch", "Gallery Design", "Premium", "Gaming", "Dolby Vision IQ"]
+    "tags": [
+      "Convection",
+      "28L",
+      "Indian Cooking",
+      "Budget Friendly",
+      "Compact"
+    ]
   },
   {
     "name": "LG 10.5 Kg Front Load Washing Machine with AI DD",
@@ -483,7 +483,13 @@
     "inStock": true,
     "warranty": "2 years comprehensive + 10 years on motor",
     "energyRating": "5 Star",
-    "tags": ["Front Load", "AI DD", "Large Capacity", "Steam", "Premium"]
+    "tags": [
+      "Front Load",
+      "AI DD",
+      "Large Capacity",
+      "Steam",
+      "Premium"
+    ]
   },
   {
     "name": "LG 8 Kg Semi-Automatic Washing Machine",
@@ -521,7 +527,12 @@
     "inStock": true,
     "warranty": "2 years on product + 5 years on motor",
     "energyRating": "4 Star",
-    "tags": ["Semi-Automatic", "Wind Jet Dry", "Budget", "8 Kg"]
+    "tags": [
+      "Semi-Automatic",
+      "Wind Jet Dry",
+      "Budget",
+      "8 Kg"
+    ]
   },
   {
     "name": "LG 687 L Frost Free French Door Refrigerator",
@@ -564,7 +575,13 @@
     "inStock": true,
     "warranty": "1 year comprehensive + 10 years on compressor",
     "energyRating": "3 Star",
-    "tags": ["French Door", "InstaView", "UVnano", "Premium", "Craft Ice"]
+    "tags": [
+      "French Door",
+      "InstaView",
+      "UVnano",
+      "Premium",
+      "Craft Ice"
+    ]
   },
   {
     "name": "LG 190 L Single Door Refrigerator",
@@ -601,7 +618,12 @@
     "inStock": true,
     "warranty": "1 year comprehensive + 10 years on compressor",
     "energyRating": "4 Star",
-    "tags": ["Single Door", "Compact", "Smart Inverter", "Budget Friendly"]
+    "tags": [
+      "Single Door",
+      "Compact",
+      "Smart Inverter",
+      "Budget Friendly"
+    ]
   },
   {
     "name": "LG 32 L Convection Microwave Oven",
@@ -641,6 +663,12 @@
     "inStock": true,
     "warranty": "1 year comprehensive + 5 years on magnetron",
     "energyRating": null,
-    "tags": ["Convection", "Charcoal", "32L", "Indian Cooking", "Mid Range"]
+    "tags": [
+      "Convection",
+      "Charcoal",
+      "32L",
+      "Indian Cooking",
+      "Mid Range"
+    ]
   }
 ]

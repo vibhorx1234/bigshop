@@ -9,11 +9,11 @@ const productSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    enum: ['TV', 'AC', 'Washing Machine', 'Refrigerator', 'Dishwashers', 'Microwave Ovens', 'LG Audio', 'Deep Freezer', 'Visi Cooler', 'Homeware']
+    enum: ['TV', 'AC', 'Washing Machine', 'Refrigerator', 'Dishwashers', 'Microwave Ovens', 'LG Audio', 'Water Purifier']
   },
   productCode: {
     type: String,
-    required: true,
+    required: false,
     unique: true,
     trim: true
   },
@@ -21,16 +21,20 @@ const productSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  featured: {
+    type: Boolean,
+    default: false
+  },
   mrp: {
     type: Number,
-    required: true
+    required: false
   },
   price: {
     type: Number,
-    required: true
+    required: false
   },
   specifications: {
-    type: Map,
+    type: mongoose.Schema.Types.Mixed,
     of: String
   },
   features: [{
@@ -60,6 +64,15 @@ const productSchema = new mongoose.Schema({
     type: String,
     default: null
   },
+  variants: [
+    {
+      screenSize: { type: Number, required: true },
+      price: { type: Number, required: true },
+      mrp: { type: Number, required: true },
+      productCode: { type: String, required: true },
+      inStock: { type: Boolean, default: true }
+    }
+  ],
   tags: [{
     type: String
   }],

@@ -3,8 +3,8 @@ const Product = require('../models/Product');
 // Get all products with filters, search, and sort
 exports.getAllProducts = async (req, res) => {
   try {
-    const { category, search, sort, minPrice, maxPrice, inStock } = req.query;
-    
+    const { category, search, sort, minPrice, maxPrice, inStock, screenSize } = req.query;
+
     let query = {};
 
     // Category filter
@@ -27,6 +27,11 @@ exports.getAllProducts = async (req, res) => {
     // Stock filter
     if (inStock !== undefined) {
       query.inStock = inStock === 'true';
+    }
+
+    // Screen size filter (for TVs)
+    if (screenSize) {
+      query.screenSize = Number(screenSize);
     }
 
     // Sort options
@@ -118,7 +123,7 @@ exports.getProductByCode = async (req, res) => {
 exports.getProductsByCategory = async (req, res) => {
   try {
     const { category } = req.params;
-    const { search, sort, minPrice, maxPrice, inStock } = req.query;
+    const { search, sort, minPrice, maxPrice, inStock, screenSize } = req.query;
 
     let query = { category };
 
@@ -129,14 +134,18 @@ exports.getProductsByCategory = async (req, res) => {
 
     // Price range filter
     if (minPrice || maxPrice) {
-      query.price = {};
-      if (minPrice) query.price.$gte = Number(minPrice);
-      if (maxPrice) query.price.$lte = Number(maxPrice);
+      if (minPrice) query['variants.price'] = { ...query['variants.price'], $gte: Number(minPrice) };
+      if (maxPrice) query['variants.price'] = { ...query['variants.price'], $lte: Number(maxPrice) };
     }
 
     // Stock filter
     if (inStock !== undefined) {
       query.inStock = inStock === 'true';
+    }
+
+    // Screen size filter (for TVs)
+    if (screenSize) {
+      query['variants.screenSize'] = Number(screenSize);
     }
 
     // Sort options
@@ -179,9 +188,7 @@ exports.getProductsByCategory = async (req, res) => {
 // Get featured products (latest or popular)
 exports.getFeaturedProducts = async (req, res) => {
   try {
-    const products = await Product.find({ inStock: true })
-      .sort({ createdAt: -1 })
-      .limit(6);
+    const products = await Product.find({ featured: true }).limit(6);
 
     res.status(200).json({
       success: true,

@@ -37,7 +37,9 @@ const TV = () => {
   const [filters, setFilters] = useState({
     minPrice: undefined,
     maxPrice: undefined,
-    inStock: undefined
+    inStock: undefined,
+    screenSize: undefined,
+    technology: undefined
   });
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [enquiryProduct, setEnquiryProduct] = useState(null);
@@ -47,7 +49,7 @@ const TV = () => {
 
   useEffect(() => {
     fetchProducts();
-  }, []);
+  }, [filters.screenSize]);
 
   useEffect(() => {
     applyFiltersAndSort();
@@ -56,7 +58,9 @@ const TV = () => {
   const fetchProducts = async () => {
     try {
       setLoading(true);
-      const data = await getProductsByCategory('TV');
+      const data = await getProductsByCategory('TV', {
+        screenSize: filters.screenSize
+      });
       setProducts(data);
     } catch (error) {
       console.error('Error fetching products:', error);
@@ -75,14 +79,37 @@ const TV = () => {
       );
     }
 
+    if (filters.screenSize !== undefined) {
+      result = result.filter(p =>
+        p.variants?.some(v => v.screenSize === filters.screenSize)
+      );
+    }
     if (filters.minPrice !== undefined) {
-      result = result.filter(product => product.price >= filters.minPrice);
+      result = result.filter(p =>
+        p.variants?.some(v => v.price >= filters.minPrice)
+      );
     }
     if (filters.maxPrice !== undefined) {
-      result = result.filter(product => product.price <= filters.maxPrice);
+      result = result.filter(p =>
+        p.variants?.some(v => v.price <= filters.maxPrice)
+      );
     }
     if (filters.inStock !== undefined) {
       result = result.filter(product => product.inStock === filters.inStock);
+    }
+    if (filters.technology !== undefined) {
+      result = result.filter(p => {
+        const display = p.specifications?.['Display Type'] ?? '';
+        const name = p.name.toLowerCase();
+        const tech = filters.technology;
+        if (tech === 'OLED evo') return display.toLowerCase().includes('oled evo');
+        if (tech === 'OLED') return display.toLowerCase().includes('oled') && !display.toLowerCase().includes('oled evo');
+        if (tech === 'QNED') return display.toLowerCase().includes('qned');
+        if (tech === 'NanoCell') return display.toLowerCase().includes('nanocell');
+        if (tech === 'FHD') return p.specifications?.['Resolution']?.includes('1080');
+        if (tech === 'UHD') return p.specifications?.['Resolution']?.includes('2160') && !display.toLowerCase().includes('oled') && !display.toLowerCase().includes('qned') && !display.toLowerCase().includes('nanocell');
+        return true;
+      });
     }
 
     switch (sortBy) {
@@ -123,14 +150,15 @@ const TV = () => {
     setFilters({
       minPrice: undefined,
       maxPrice: undefined,
-      inStock: undefined
+      inStock: undefined,
+      technology: undefined
     });
     setSearchTerm('');
     setSortBy('newest');
   };
 
-  const handleViewDetails = (product) => {
-    setSelectedProduct(product);
+  const handleViewDetails = (product, initialSize = null) => {
+    setSelectedProduct({ ...product, initialSize });
     setModalOpen(true);
   };
 
@@ -148,98 +176,101 @@ const TV = () => {
       filters={filters}
       onFilterChange={handleFilterChange}
       onReset={handleResetFilters}
+      category="TV"
+      products={products}
     />
   );
 
   return (
     <ParallaxSvgBackground>
-    <AnimatedBackground>
-      <Box sx={{ py: 4 }}>
-        <Container maxWidth="xl">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={fadeInUp}
-          >
-            <Typography variant="h3" component="h1" gutterBottom fontWeight={700}>
-              LG Televisions
-            </Typography>
-            <Typography variant="body1" color="text.secondary" paragraph>
-              Discover our range of OLED and LED Smart TVs
-            </Typography>
-          </motion.div>
+      <AnimatedBackground>
+        <Box sx={{ py: 4 }}>
+          <Container maxWidth="xl">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={fadeInUp}
+            >
+              <Typography variant="h3" component="h1" gutterBottom fontWeight={700}>
+                LG Televisions
+              </Typography>
+              <Typography variant="body1" color="text.secondary" paragraph>
+                Discover our range of OLED and LED Smart TVs
+              </Typography>
+            </motion.div>
 
-          <Paper elevation={0} sx={{ p: 2, mb: 3, borderRadius: 3, border: '1px solid', borderColor: 'divider' }}>
-            <Grid container spacing={2} alignItems="center">
-              <Grid item xs={12} md={8}>
-                <SearchBar onSearch={handleSearch} placeholder="Search TVs..." />
+            <Paper elevation={0} sx={{ p: 2, mb: 3, borderRadius: 3, border: '1px solid', borderColor: 'divider' }}>
+              <Grid container spacing={2} alignItems="center">
+                <Grid item xs={12} md={8}>
+                  <SearchBar onSearch={handleSearch} placeholder="Search TVs..." />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                  <SortDropdown value={sortBy} onChange={handleSortChange} />
+                </Grid>
               </Grid>
-              <Grid item xs={12} md={4}>
-                <SortDropdown value={sortBy} onChange={handleSortChange} />
-              </Grid>
-            </Grid>
-          </Paper>
+            </Paper>
 
-          {isMobile && (
-            <Box sx={{ mb: 2 }}>
-              <Button
-                fullWidth
-                variant="outlined"
-                startIcon={<FilterList />}
-                onClick={() => setFilterDrawerOpen(true)}
-              >
-                Filters
-              </Button>
-            </Box>
-          )}
-
-          <Grid container spacing={3}>
-            {!isMobile && (
-              <Grid item md={3}>
-                {filterPanel}
-              </Grid>
+            {isMobile && (
+              <Box sx={{ mb: 2 }}>
+                <Button
+                  fullWidth
+                  variant="outlined"
+                  startIcon={<FilterList />}
+                  onClick={() => setFilterDrawerOpen(true)}
+                >
+                  Filters
+                </Button>
+              </Box>
             )}
 
-            <Grid item xs={12} md={isMobile ? 12 : 9}>
-              <ProductGrid
-                products={filteredProducts}
-                onViewDetails={handleViewDetails}
-                onEnquire={handleEnquire}
-              />
+            <Grid container spacing={3}>
+              {!isMobile && (
+                <Grid item md={3}>
+                  {filterPanel}
+                </Grid>
+              )}
+
+              <Grid item xs={12} md={isMobile ? 12 : 9}>
+                <ProductGrid
+                  products={filteredProducts}
+                  onViewDetails={handleViewDetails}
+                  onEnquire={handleEnquire}
+                  filterScreenSize={filters.screenSize}
+                />
+              </Grid>
             </Grid>
-          </Grid>
-        </Container>
+          </Container>
 
-        <Drawer
-          anchor="left"
-          open={filterDrawerOpen}
-          onClose={() => setFilterDrawerOpen(false)}
-        >
-          <Box sx={{ width: 300, p: 2 }}>
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
-              <Typography variant="h6" fontWeight={600}>Filters</Typography>
-              <IconButton onClick={() => setFilterDrawerOpen(false)}>
-                <Close />
-              </IconButton>
+          <Drawer
+            anchor="left"
+            open={filterDrawerOpen}
+            onClose={() => setFilterDrawerOpen(false)}
+          >
+            <Box sx={{ width: 300, p: 2 }}>
+              <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
+                <Typography variant="h6" fontWeight={600}>Filters</Typography>
+                <IconButton onClick={() => setFilterDrawerOpen(false)}>
+                  <Close />
+                </IconButton>
+              </Box>
+              {filterPanel}
             </Box>
-            {filterPanel}
-          </Box>
-        </Drawer>
+          </Drawer>
 
-        <ProductModal
-          open={modalOpen}
-          product={selectedProduct}
-          onClose={() => setModalOpen(false)}
-          onEnquire={handleEnquire}
-        />
+          <ProductModal
+            open={modalOpen}
+            product={selectedProduct}
+            onClose={() => setModalOpen(false)}
+            onEnquire={handleEnquire}
+          />
 
-        <EnquiryForm
-          open={enquiryOpen}
-          product={enquiryProduct}
-          onClose={() => setEnquiryOpen(false)}
-        />
-      </Box>
-    </AnimatedBackground>
+          <EnquiryForm
+            open={enquiryOpen}
+            product={enquiryProduct}
+            onClose={() => setEnquiryOpen(false)}
+          />
+        </Box>
+      </AnimatedBackground>
     </ParallaxSvgBackground>
   );
 };

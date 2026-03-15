@@ -37,6 +37,7 @@ import {
   Inventory,
   Collections,
   HomeOutlined,
+  WaterDrop
 } from '@mui/icons-material';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useThemeContext } from '../../context/ThemeContext';
@@ -55,7 +56,7 @@ const Header = () => {
 
   // Icon mapping for categories
   const categoryIcons = {
-    'All': <Inventory />,
+    // 'All': <Inventory />,
     'TV': <Tv />,
     'AC': <AcUnit />,
     'Washing Machine': <LocalLaundryService />,
@@ -63,9 +64,10 @@ const Header = () => {
     'Dishwashers': <LocalLaundryService />,
     'Microwave Ovens': <Microwave />,
     'LG Audio': <Speaker />,
-    'Deep Freezer': <AcUnitOutlined />,
-    'Visi Cooler': <WineBar />,
-    'Homeware': <HomeOutlined />
+    'Water Purifier': <WaterDrop />
+    // 'Deep Freezer': <AcUnitOutlined />,
+    // 'Visi Cooler': <WineBar />,
+    // 'Homeware': <HomeOutlined />
   };
 
   const handleProductsMenuOpen = (event) => {
@@ -372,14 +374,14 @@ const Header = () => {
                     justifyContent: 'center',
                     gap: 2 
                   }}>
-                    <Button
+                    {/* <Button
                       variant="outlined"
                       size="small"
                       onClick={() => handleNavigation('/products')}
                       sx={{ borderRadius: 2 }}
                     >
                       View All Products
-                    </Button>
+                    </Button> */}
                     <Button
                       variant="contained"
                       size="small"

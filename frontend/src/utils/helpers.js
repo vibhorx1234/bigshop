@@ -40,10 +40,11 @@ export const getCategoryPath = (category) => {
     'Dishwashers': '/products/dishwashers',
     'Microwave Ovens': '/products/microwave-ovens',
     'LG Audio': '/products/audio',
-    'Deep Freezer': '/products/freezer',
-    'Visi Cooler': '/products/visi',
-    'Homeware': '/products/homeware',
-    'All': '/products'
+    'Water Purifier': '/products/water-purifier'
+    // 'Deep Freezer': '/products/freezer',
+    // 'Visi Cooler': '/products/visi',
+    // 'Homeware': '/products/homeware',
+    // 'All': '/products'
   };
   return categoryMap[category] || '/products';
 };
