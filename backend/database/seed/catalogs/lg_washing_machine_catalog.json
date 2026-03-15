@@ -1,0 +1,2468 @@
+[
+  {
+    "_id": "wm-fwt1310bg",
+    "name": "LG WashTower 13/10 Kg – FWT1310BG (Natural Beige & Green)",
+    "category": "Washing Machine",
+    "description": "LG WashTower all-in-one integrated washer-dryer with AI Direct Drive, TurboWash 360, Steam+, and Dual Inverter Heat Pump dryer in a sleek Unibody tower design.",
+    "specifications": {
+      "Type": "WashTower (Washer + Dryer)",
+      "Capacity": "13 Kg (Wash) / 10 Kg (Dry)",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star (Washer)",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "9 Wash / 8 Dry Programs",
+      "Smart Diagnosis": "Yes",
+      "Dimensions (WxHxD mm)": "600 x 1655 x 660"
+    },
+    "features": [
+      "Auto Sense AI Direct Drive Technology",
+      "TurboWash 360 – multi-directional jets",
+      "Steam+ with Wrinkle Care (99.9% allergen removal)",
+      "Dual Inverter Heat Pump Dryer",
+      "Smart Pairing – optimised washer-to-dryer handoff",
+      "Central Control Panel",
+      "Auto Cleaning Condenser",
+      "Sensor Dry",
+      "10-year motor & heat pump warranty"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fwt1310bg1/800/800",
+      "https://picsum.photos/seed/fwt1310bg2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor + 10 years on heat pump",
+    "energyRating": "5 Star",
+    "tags": ["WashTower", "Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater", "Washer Dryer"],
+    "productCode": "FWT1310BG",
+    "mrp": 275000,
+    "price": 247500,
+    "createdAt": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fwt1310pb",
+    "name": "LG WashTower 13/10 Kg – FWT1310PB (Calming Pink & Beige)",
+    "category": "Washing Machine",
+    "description": "LG WashTower all-in-one integrated washer-dryer with AI Direct Drive, TurboWash 360, Steam+, and Dual Inverter Heat Pump dryer in Calming Pink & Beige.",
+    "specifications": {
+      "Type": "WashTower (Washer + Dryer)",
+      "Capacity": "13 Kg (Wash) / 10 Kg (Dry)",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star (Washer)",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "9 Wash / 8 Dry Programs",
+      "Smart Diagnosis": "Yes",
+      "Dimensions (WxHxD mm)": "600 x 1655 x 660"
+    },
+    "features": [
+      "Auto Sense AI Direct Drive Technology",
+      "TurboWash 360 – multi-directional jets",
+      "Steam+ with Wrinkle Care",
+      "Dual Inverter Heat Pump Dryer",
+      "Smart Pairing",
+      "Central Control Panel",
+      "Auto Cleaning Condenser",
+      "Sensor Dry"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fwt1310pb1/800/800",
+      "https://picsum.photos/seed/fwt1310pb2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor + 10 years on heat pump",
+    "energyRating": "5 Star",
+    "tags": ["WashTower", "Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater", "Washer Dryer"],
+    "productCode": "FWT1310PB",
+    "mrp": 269999,
+    "price": 242999,
+    "createdAt": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-dhv09sab",
+    "name": "LG 9 Kg Heat Pump Dryer – DHV09SAB (Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 Kg condenser dryer with Dual Inverter Heat Pump, Eco Hybrid technology, auto cleaning condenser, and allergy care for gentle, energy-efficient drying.",
+    "specifications": {
+      "Type": "Dryer",
+      "Capacity": "9 Kg (Dry)",
+      "Motor Type": "Dual Inverter Heat Pump (BLDC)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "N/A",
+      "Dry Programs": "8 Programs",
+      "Smart Diagnosis": "Yes",
+      "Dimensions (WxHxD mm)": "600 x 850 x 600"
+    },
+    "features": [
+      "Dual Inverter Heat Pump – energy-efficient drying",
+      "Eco Hybrid Technology",
+      "Auto Cleaning Condenser",
+      "Sensor Dry – prevents over-drying",
+      "Allergy Care drying cycle",
+      "Double Layer Air Filter"
+    ],
+    "images": [
+      "https://picsum.photos/seed/dhv09sab1/800/800",
+      "https://picsum.photos/seed/dhv09sab2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on heat pump",
+    "energyRating": "5 Star",
+    "tags": ["Dryer", "Heat Pump", "Wi-Fi", "Allergy Care"],
+    "productCode": "DHV09SAB",
+    "mrp": 87990,
+    "price": 79990,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhd2112stb",
+    "name": "LG 21/12 Kg Washer Dryer – FHD2112STB (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG's largest front load washer-dryer combo with 21 kg wash and 12 kg dry capacity, featuring AI Direct Drive, TurboWash 360, Steam+, and Wi-Fi control.",
+    "specifications": {
+      "Type": "Washer Dryer Combo",
+      "Capacity": "21 Kg (Wash) / 12 Kg (Dry)",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash",
+      "10-year motor warranty"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhd2112stb1/800/800",
+      "https://picsum.photos/seed/fhd2112stb2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Washer Dryer", "Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHD2112STB",
+    "mrp": 151990,
+    "price": 136791,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhd1508stb",
+    "name": "LG 15/8 Kg Washer Dryer – FHD1508STB (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG 15 kg wash / 8 kg dry combo front loader with AI Direct Drive, TurboWash 360, Steam+, and Wi-Fi ThinQ connectivity.",
+    "specifications": {
+      "Type": "Washer Dryer Combo",
+      "Capacity": "15 Kg (Wash) / 8 Kg (Dry)",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhd1508stb1/800/800",
+      "https://picsum.photos/seed/fhd1508stb2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Washer Dryer", "Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHD1508STB",
+    "mrp": 121990,
+    "price": 109791,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhd1308stb",
+    "name": "LG 13/8 Kg Washer Dryer – FHD1308STB (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG 13 kg wash / 8 kg dry combo front loader with AI Direct Drive, TurboWash 360, Steam+, and Wi-Fi ThinQ connectivity.",
+    "specifications": {
+      "Type": "Washer Dryer Combo",
+      "Capacity": "13 Kg (Wash) / 8 Kg (Dry)",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhd1308stb1/800/800",
+      "https://picsum.photos/seed/fhd1308stb2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Washer Dryer", "Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHD1308STB",
+    "mrp": 101990,
+    "price": 91791,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhd1207stb",
+    "name": "LG 12/7 Kg Washer Dryer – FHD1207STB (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG 12 kg wash / 7 kg dry combo with AI Direct Drive, TurboWash 360, Steam+, and Wi-Fi for complete laundry in one machine.",
+    "specifications": {
+      "Type": "Washer Dryer Combo",
+      "Capacity": "12 Kg (Wash) / 7 Kg (Dry)",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhd1207stb1/800/800",
+      "https://picsum.photos/seed/fhd1207stb2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Washer Dryer", "Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHD1207STB",
+    "mrp": 88990,
+    "price": 80091,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhd1107swm",
+    "name": "LG 11/7 Kg Washer Dryer – FHD1107SWM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 11 kg wash / 7 kg dry combo with Smart Inverter motor, Steam+, and Wi-Fi for efficient combined laundry care.",
+    "specifications": {
+      "Type": "Washer Dryer Combo",
+      "Capacity": "11 Kg (Wash) / 7 Kg (Dry)",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhd1107swm1/800/800",
+      "https://picsum.photos/seed/fhd1107swm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Washer Dryer", "Front Load", "Smart Inverter", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHD1107SWM",
+    "mrp": 70990,
+    "price": 63891,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhd0905stb",
+    "name": "LG 9/5 Kg Washer Dryer – FHD0905STB (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "Compact LG 9 kg wash / 5 kg dry combo with AI Direct Drive, Steam+, and Wi-Fi – ideal for smaller households needing combined laundry.",
+    "specifications": {
+      "Type": "Washer Dryer Combo",
+      "Capacity": "9 Kg (Wash) / 5 Kg (Dry)",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhd0905stb1/800/800",
+      "https://picsum.photos/seed/fhd0905stb2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Washer Dryer", "Front Load", "AI Direct Drive", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHD0905STB",
+    "mrp": 72990,
+    "price": 65691,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1413z7m",
+    "name": "LG 13 Kg Front Load – FHP1413Z7M (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 13 kg premium front loader with AI Direct Drive, ez-Dispense auto-detergent, TurboWash 360, Steam+, and Wi-Fi for the ultimate laundry experience.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "13 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "ez-Dispense – automatic detergent dispensing",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash",
+      "10-year motor warranty"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1413z7m1/800/800",
+      "https://picsum.photos/seed/fhp1413z7m2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1413Z7M",
+    "mrp": 86990,
+    "price": 78291,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1412z9b",
+    "name": "LG 12 Kg Front Load – FHP1412Z9B (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG 12 kg front loader with AI Direct Drive, TurboWash 360 (39-min full wash), Steam+, and Wi-Fi ThinQ in premium Platinum Black.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "12 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360 – full wash in 39 mins",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash",
+      "10-year motor warranty"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1412z9b1/800/800",
+      "https://picsum.photos/seed/fhp1412z9b2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1412Z9B",
+    "mrp": 66990,
+    "price": 59991,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1412z5o",
+    "name": "LG 12 Kg Front Load – FHP1412Z5O (Onyx Black)",
+    "category": "Washing Machine",
+    "description": "LG 12 kg front loader with AI Direct Drive, TurboWash 360, Steam+, Wi-Fi ThinQ connectivity, and allergy care in Onyx Black.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "12 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1412z5o1/800/800",
+      "https://picsum.photos/seed/fhp1412z5o2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1412Z5O",
+    "mrp": 61990,
+    "price": 55791,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1412z3o",
+    "name": "LG 12 Kg Front Load – FHP1412Z3O (Onyx Black)",
+    "category": "Washing Machine",
+    "description": "LG 12 kg front loader with AI Direct Drive, in-built heater, 6 Motion wash, and smart diagnosis for intelligent fabric care.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "12 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash",
+      "Smart Diagnosis"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1412z3o1/800/800",
+      "https://picsum.photos/seed/fhp1412z3o2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1412Z3O",
+    "mrp": 59990,
+    "price": 53991,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1410z7p",
+    "name": "LG 10 Kg Front Load – FHP1410Z7P (Platinum)",
+    "category": "Washing Machine",
+    "description": "LG 10 kg front loader with AI Direct Drive, TurboWash 360, Steam+, in-built heater, and Wi-Fi in Platinum finish.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "10 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "In-built Heater",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1410z7p1/800/800",
+      "https://picsum.photos/seed/fhp1410z7p2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1410Z7P",
+    "mrp": 67990,
+    "price": 61191,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1410z5m",
+    "name": "LG 10 Kg Front Load – FHP1410Z5M (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 10 kg front loader with AI Direct Drive, TurboWash 360, Steam+, in-built heater, and Wi-Fi in Middle Black.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "10 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "In-built Heater",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1410z5m1/800/800",
+      "https://picsum.photos/seed/fhp1410z5m2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1410Z5M",
+    "mrp": 64990,
+    "price": 58491,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1209z9b",
+    "name": "LG 9 Kg Front Load – FHP1209Z9B (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg front loader with AI Direct Drive, TurboWash 360, Steam+, Wi-Fi ThinQ and allergy care in Platinum Black.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1200 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1209z9b1/800/800",
+      "https://picsum.photos/seed/fhp1209z9b2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1209Z9B",
+    "mrp": 57990,
+    "price": 52191,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1209z7p",
+    "name": "LG 9 Kg Front Load – FHP1209Z7P (Platinum)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg front loader with AI Direct Drive, TurboWash 360, Steam+ with wrinkle care, Wi-Fi ThinQ in Platinum finish.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1200 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ with Wrinkle Care",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1209z7p1/800/800",
+      "https://picsum.photos/seed/fhp1209z7p2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1209Z7P",
+    "mrp": 55990,
+    "price": 50391,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhb1209z4b",
+    "name": "LG 9 Kg Front Load – FHB1209Z4B (Black VCM)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg front loader with AI Direct Drive, Steam+, 6 Motion wash for superior fabric care in Black VCM finish.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1200 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "Steam+",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhb1209z4b1/800/800",
+      "https://picsum.photos/seed/fhb1209z4b2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHB1209Z4B",
+    "mrp": 56990,
+    "price": 51291,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhb1209z4m",
+    "name": "LG 9 Kg Front Load – FHB1209Z4M (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg front loader with AI Direct Drive, Steam+, 6 Motion wash in Middle Black finish.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1200 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "Steam+",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhb1209z4m1/800/800",
+      "https://picsum.photos/seed/fhb1209z4m2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHB1209Z4M",
+    "mrp": 54490,
+    "price": 49041,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhb1209z2m",
+    "name": "LG 9 Kg Front Load – FHB1209Z2M (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg front loader with Smart Inverter motor and 6 Motion wash in Middle Black.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "No",
+      "Spin Speed": "1200 RPM",
+      "Wash Programs": "10 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash",
+      "Smart Diagnosis"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhb1209z2m1/800/800",
+      "https://picsum.photos/seed/fhb1209z2m2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "Smart Inverter", "Wi-Fi"],
+    "productCode": "FHB1209Z2M",
+    "mrp": 52990,
+    "price": 47691,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhp1208z5m",
+    "name": "LG 8 Kg Front Load – FHP1208Z5M (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg front loader with AI Direct Drive, TurboWash 360, Steam+, in-built heater, and Wi-Fi ThinQ.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1400 RPM",
+      "Wash Programs": "14 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboWash 360",
+      "Steam+ Allergy Care",
+      "Wi-Fi via LG ThinQ",
+      "In-built Heater"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhp1208z5m1/800/800",
+      "https://picsum.photos/seed/fhp1208z5m2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "TurboWash", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHP1208Z5M",
+    "mrp": 53990,
+    "price": 48591,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhb1208z4p",
+    "name": "LG 8 Kg Front Load – FHB1208Z4P (Platinum)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg front loader with AI Direct Drive, Steam+, 6 Motion wash in Platinum finish.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1200 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "Steam+",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhb1208z4p1/800/800",
+      "https://picsum.photos/seed/fhb1208z4p2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHB1208Z4P",
+    "mrp": 51490,
+    "price": 46341,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhb1208z2m",
+    "name": "LG 8 Kg Front Load – FHB1208Z2M (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg front loader with Smart Inverter motor and 6 Motion wash in Middle Black.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "No",
+      "Spin Speed": "1200 RPM",
+      "Wash Programs": "10 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhb1208z2m1/800/800",
+      "https://picsum.photos/seed/fhb1208z2m2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "Smart Inverter", "Wi-Fi"],
+    "productCode": "FHB1208Z2M",
+    "mrp": 48990,
+    "price": 44091,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhb1207z4m",
+    "name": "LG 7 Kg Front Load – FHB1207Z4M (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 7 kg front loader with AI Direct Drive, Steam+, 6 Motion wash in Middle Black.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "7 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "1200 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "Steam+",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhb1207z4m1/800/800",
+      "https://picsum.photos/seed/fhb1207z4m2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "AI Direct Drive", "Steam", "Wi-Fi", "In-built Heater"],
+    "productCode": "FHB1207Z4M",
+    "mrp": 46490,
+    "price": 41841,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-fhb1207z2m",
+    "name": "LG 7 Kg Front Load – FHB1207Z2M (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 7 kg front loader with Smart Inverter motor and 6 Motion wash for everyday laundry needs.",
+    "specifications": {
+      "Type": "Front Load",
+      "Capacity": "7 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "No",
+      "Spin Speed": "1000 RPM",
+      "Wash Programs": "10 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "Wi-Fi via LG ThinQ",
+      "6 Motion Wash",
+      "Smart Diagnosis"
+    ],
+    "images": [
+      "https://picsum.photos/seed/fhb1207z2m1/800/800",
+      "https://picsum.photos/seed/fhb1207z2m2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Front Load", "Smart Inverter", "Wi-Fi"],
+    "productCode": "FHB1207Z2M",
+    "mrp": 44490,
+    "price": 40041,
+    "createdAt": "2024-08-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd13swp",
+    "name": "LG 13 Kg Top Load – THD13SWP (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG 13 kg fully automatic top loader with AI Direct Drive, in-built heater, TurboDrum, Jet Spray+, and Wi-Fi ThinQ in Platinum Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "13 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "TurboDrum",
+      "Jet Spray+",
+      "Wi-Fi via LG ThinQ",
+      "Smart Diagnosis"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd13swp1/800/800",
+      "https://picsum.photos/seed/thd13swp2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater"],
+    "productCode": "THD13SWP",
+    "mrp": 53990,
+    "price": 48591,
+    "createdAt": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd12swm",
+    "name": "LG 12 Kg Top Load – THD12SWM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 12 kg fully automatic top loader with AI Direct Drive, in-built heater, TurboDrum, Jet Spray+, and Wi-Fi ThinQ in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "12 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "TurboDrum",
+      "Jet Spray+",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd12swm1/800/800",
+      "https://picsum.photos/seed/thd12swm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater"],
+    "productCode": "THD12SWM",
+    "mrp": 48990,
+    "price": 44091,
+    "createdAt": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t12sjmb1z",
+    "name": "LG 12 Kg Top Load – T12SJMB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 12 kg Smart Inverter fully automatic top loader with TurboDrum, Jet Spray+, and smart diagnosis.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "12 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "TurboDrum",
+      "Jet Spray+",
+      "Smart Diagnosis"
+    ],
+    "images": [
+      "https://picsum.photos/seed/t12sjmb1z1/800/800",
+      "https://picsum.photos/seed/t12sjmb1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T12SJMB1Z",
+    "mrp": 41990,
+    "price": 37791,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd10swp",
+    "name": "LG 10 Kg Top Load – THD10SWP (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG 10 kg top loader with AI Direct Drive, in-built heater, TurboWash, Jet Spray+, and Wi-Fi ThinQ in Platinum Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "10 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "TurboWash",
+      "Jet Spray+",
+      "Wi-Fi via LG ThinQ",
+      "Steam"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd10swp1/800/800",
+      "https://picsum.photos/seed/thd10swp2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater"],
+    "productCode": "THD10SWP",
+    "mrp": 47490,
+    "price": 42741,
+    "createdAt": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd10nwm",
+    "name": "LG 10 Kg Top Load – THD10NWM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 10 kg top loader with AI Direct Drive, TurboDrum, Jet Spray+, and Wi-Fi ThinQ in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "10 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "4 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "10 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboDrum",
+      "Jet Spray+",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd10nwm1/800/800",
+      "https://picsum.photos/seed/thd10nwm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "4 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi"],
+    "productCode": "THD10NWM",
+    "mrp": 42990,
+    "price": 38691,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd10npm",
+    "name": "LG 10 Kg Top Load – THD10NPM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 10 kg top loader with Smart Inverter, TurboDrum, and Wi-Fi ThinQ for efficient everyday washing.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "10 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "4 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "TurboDrum",
+      "Wi-Fi via LG ThinQ",
+      "Smart Diagnosis"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd10npm1/800/800",
+      "https://picsum.photos/seed/thd10npm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "4 Star",
+    "tags": ["Top Load", "Smart Inverter", "Wi-Fi"],
+    "productCode": "THD10NPM",
+    "mrp": 39990,
+    "price": 35991,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-tx511swo",
+    "name": "LG 10 Kg Top Load – TX511SWO (Onyx Black)",
+    "category": "Washing Machine",
+    "description": "LG 10 kg AI Direct Drive top loader with in-built heater, TurboDrum, Steam, and Wi-Fi ThinQ in Onyx Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "10 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "Steam",
+      "TurboDrum",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tx511swo1/800/800",
+      "https://picsum.photos/seed/tx511swo2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater", "Steam"],
+    "productCode": "TX511SWO",
+    "mrp": 46990,
+    "price": 42291,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-tx310nwo",
+    "name": "LG 10 Kg Top Load – TX310NWO (Onyx Black)",
+    "category": "Washing Machine",
+    "description": "LG 10 kg Smart Inverter top loader with TurboDrum and Wi-Fi ThinQ in Onyx Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "10 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "4 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "TurboDrum",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tx310nwo1/800/800",
+      "https://picsum.photos/seed/tx310nwo2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "4 Star",
+    "tags": ["Top Load", "Smart Inverter", "Wi-Fi"],
+    "productCode": "TX310NWO",
+    "mrp": 38990,
+    "price": 35091,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-tx510swo",
+    "name": "LG 11 Kg Top Load – TX510SWO (Onyx Black)",
+    "category": "Washing Machine",
+    "description": "LG 11 kg AI Direct Drive top loader with in-built heater, TurboDrum, Steam, and Wi-Fi ThinQ in Onyx Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "11 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "12 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "Steam",
+      "TurboDrum",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tx510swo1/800/800",
+      "https://picsum.photos/seed/tx510swo2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater", "Steam"],
+    "productCode": "TX510SWO",
+    "mrp": 43990,
+    "price": 39591,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-tx311swo",
+    "name": "LG 11 Kg Top Load – TX311SWO (Onyx Black)",
+    "category": "Washing Machine",
+    "description": "LG 11 kg AI Direct Drive top loader with in-built heater and TurboDrum in Onyx Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "11 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "10 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "TurboDrum",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/tx311swo1/800/800",
+      "https://picsum.photos/seed/tx311swo2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater"],
+    "productCode": "TX311SWO",
+    "mrp": 43990,
+    "price": 39591,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd09swm",
+    "name": "LG 9 Kg Top Load – THD09SWM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg top loader with AI Direct Drive, in-built heater, TurboDrum, Jet Spray+, and Wi-Fi ThinQ.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "10 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "TurboDrum",
+      "Jet Spray+",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd09swm1/800/800",
+      "https://picsum.photos/seed/thd09swm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater"],
+    "productCode": "THD09SWM",
+    "mrp": 43990,
+    "price": 39591,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd09nwm",
+    "name": "LG 9 Kg Top Load – THD09NWM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg top loader with AI Direct Drive, TurboDrum, and Wi-Fi ThinQ.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "4 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "TurboDrum",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd09nwm1/800/800",
+      "https://picsum.photos/seed/thd09nwm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "4 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi"],
+    "productCode": "THD09NWM",
+    "mrp": 40990,
+    "price": 36891,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t90ajmb1z",
+    "name": "LG 9 Kg Top Load – T90AJMB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg Smart Inverter top loader with TurboDrum for reliable everyday washing.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "TurboDrum",
+      "Smart Diagnosis"
+    ],
+    "images": [
+      "https://picsum.photos/seed/t90ajmb1z1/800/800",
+      "https://picsum.photos/seed/t90ajmb1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T90AJMB1Z",
+    "mrp": 33990,
+    "price": 30591,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t90v4mb1s",
+    "name": "LG 9 Kg Top Load – T90V4MB1S (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg Smart Inverter top loader with TurboDrum and Jet Spray+ in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "Smart Inverter Motor",
+      "TurboDrum",
+      "Jet Spray+"
+    ],
+    "images": [
+      "https://picsum.photos/seed/t90v4mb1s1/800/800",
+      "https://picsum.photos/seed/t90v4mb1s2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T90V4MB1S",
+    "mrp": 35990,
+    "price": 32391,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t90v4pb1s",
+    "name": "LG 9 Kg Top Load – T90V4PB1S (Platinum Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg Smart Inverter top loader with TurboDrum and Jet Spray+ in Platinum Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum", "Jet Spray+"],
+    "images": [
+      "https://picsum.photos/seed/t90v4pb1s1/800/800",
+      "https://picsum.photos/seed/t90v4pb1s2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T90V4PB1S",
+    "mrp": 37990,
+    "price": 34191,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t90kmob1z",
+    "name": "LG 9 Kg Top Load – T90KMOB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 9 kg Smart Inverter top loader with TurboDrum in Middle Black finish.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "9 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t90kmob1z1/800/800",
+      "https://picsum.photos/seed/t90kmob1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T90KMOB1Z",
+    "mrp": 35990,
+    "price": 32391,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd08sjm",
+    "name": "LG 8 Kg Top Load – THD08SJM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg top loader with AI Direct Drive, in-built heater, TurboDrum, and Wi-Fi ThinQ.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "10 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "TurboDrum",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd08sjm1/800/800",
+      "https://picsum.photos/seed/thd08sjm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater"],
+    "productCode": "THD08SJM",
+    "mrp": 35990,
+    "price": 32391,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd08spm",
+    "name": "LG 8 Kg Top Load – THD08SPM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg top loader with AI Direct Drive, in-built heater, TurboDrum, and Wi-Fi ThinQ.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "AI Direct Drive (Inverter Direct Drive)",
+      "Energy Rating": "5 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "Yes",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "10 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": [
+      "AI Direct Drive Technology",
+      "In-built Heater",
+      "TurboDrum",
+      "Wi-Fi via LG ThinQ"
+    ],
+    "images": [
+      "https://picsum.photos/seed/thd08spm1/800/800",
+      "https://picsum.photos/seed/thd08spm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "AI Direct Drive", "Wi-Fi", "In-built Heater"],
+    "productCode": "THD08SPM",
+    "mrp": 34990,
+    "price": 31491,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-thd08npm",
+    "name": "LG 8 Kg Top Load – THD08NPM (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg top loader with Smart Inverter, TurboDrum, and Wi-Fi ThinQ.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "4 Star",
+      "WiFi": "Yes – LG ThinQ",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum", "Wi-Fi via LG ThinQ"],
+    "images": [
+      "https://picsum.photos/seed/thd08npm1/800/800",
+      "https://picsum.photos/seed/thd08npm2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "4 Star",
+    "tags": ["Top Load", "Smart Inverter", "Wi-Fi"],
+    "productCode": "THD08NPM",
+    "mrp": 32990,
+    "price": 29691,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t80ajmb1z",
+    "name": "LG 8 Kg Top Load – T80AJMB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg Smart Inverter top loader with TurboDrum in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t80ajmb1z1/800/800",
+      "https://picsum.photos/seed/t80ajmb1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T80AJMB1Z",
+    "mrp": 32490,
+    "price": 29241,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t80v4mb1s",
+    "name": "LG 8 Kg Top Load – T80V4MB1S (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg Smart Inverter top loader with TurboDrum and Jet Spray+ in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum", "Jet Spray+"],
+    "images": [
+      "https://picsum.photos/seed/t80v4mb1s1/800/800",
+      "https://picsum.photos/seed/t80v4mb1s2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T80V4MB1S",
+    "mrp": 32990,
+    "price": 29691,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t80snmb1z",
+    "name": "LG 8 Kg Top Load – T80SNMB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg Smart Inverter top loader with TurboDrum in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t80snmb1z1/800/800",
+      "https://picsum.photos/seed/t80snmb1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T80SNMB1Z",
+    "mrp": 35990,
+    "price": 32391,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t80snsf1z",
+    "name": "LG 8 Kg Top Load – T80SNSF1Z (Silver)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg Smart Inverter top loader in Silver finish.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t80snsf1z1/800/800",
+      "https://picsum.photos/seed/t80snsf1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T80SNSF1Z",
+    "mrp": 30490,
+    "price": 27441,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t80spmb1z",
+    "name": "LG 8 Kg Top Load – T80SPMB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg Smart Inverter top loader in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t80spmb1z1/800/800",
+      "https://picsum.photos/seed/t80spmb1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T80SPMB1Z",
+    "mrp": 28990,
+    "price": 26091,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t80vbmb1z",
+    "name": "LG 8 Kg Top Load – T80VBMB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg Smart Inverter top loader with TurboDrum in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t80vbmb1z1/800/800",
+      "https://picsum.photos/seed/t80vbmb1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T80VBMB1Z",
+    "mrp": 28990,
+    "price": 26091,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t80kmob1z",
+    "name": "LG 8 Kg Top Load – T80KMOB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg Smart Inverter top loader in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t80kmob1z1/800/800",
+      "https://picsum.photos/seed/t80kmob1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T80KMOB1Z",
+    "mrp": 28990,
+    "price": 26091,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t75vbmb1z",
+    "name": "LG 7.5 Kg Top Load – T75VBMB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 7.5 kg Smart Inverter top loader with TurboDrum in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "7.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t75vbmb1z1/800/800",
+      "https://picsum.photos/seed/t75vbmb1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T75VBMB1Z",
+    "mrp": 27990,
+    "price": 25191,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t75vbmb1s",
+    "name": "LG 7.5 Kg Top Load – T75VBMB1S (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 7.5 kg Smart Inverter top loader with TurboDrum in Middle Black variant.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "7.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t75vbmb1s1/800/800",
+      "https://picsum.photos/seed/t75vbmb1s2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T75VBMB1S",
+    "mrp": 27990,
+    "price": 25191,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t75vbsf1z",
+    "name": "LG 7.5 Kg Top Load – T75VBSF1Z (Silver)",
+    "category": "Washing Machine",
+    "description": "LG 7.5 kg Smart Inverter top loader in Silver finish.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "7.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t75vbsf1z1/800/800",
+      "https://picsum.photos/seed/t75vbsf1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T75VBSF1Z",
+    "mrp": 27490,
+    "price": 24741,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t70ajmb1z",
+    "name": "LG 7 Kg Top Load – T70AJMB1Z (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 7 kg Smart Inverter top loader with TurboDrum in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "7 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum"],
+    "images": [
+      "https://picsum.photos/seed/t70ajmb1z1/800/800",
+      "https://picsum.photos/seed/t70ajmb1z2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T70AJMB1Z",
+    "mrp": 28990,
+    "price": 26091,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-t70vbmb4zd",
+    "name": "LG 7 Kg Top Load – T70VBMB4ZD (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 7 kg Smart Inverter top loader with TurboDrum and Jet Spray+ in Middle Black.",
+    "specifications": {
+      "Type": "Top Load",
+      "Capacity": "7 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Spin Speed": "700 RPM",
+      "Wash Programs": "8 Programs",
+      "Smart Diagnosis": "Yes"
+    },
+    "features": ["Smart Inverter Motor", "TurboDrum", "Jet Spray+"],
+    "images": [
+      "https://picsum.photos/seed/t70vbmb4zd1/800/800",
+      "https://picsum.photos/seed/t70vbmb4zd2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Top Load", "Smart Inverter"],
+    "productCode": "T70VBMB4ZD",
+    "mrp": 27490,
+    "price": 24741,
+    "createdAt": "2024-07-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p1465skaz",
+    "name": "LG 14 Kg Semi-Automatic – P1465SKAZ (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 14 kg semi-automatic top loader with Roller Jet Pulsator+ Soak, Wind Jet Dry, and Rat Away technology in Middle Black.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "14 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs",
+      "Spin Type": "Auto Restart"
+    },
+    "features": [
+      "Roller Jet Pulsator + Soak",
+      "Wind Jet Dry",
+      "Rat Away",
+      "Magic Wheels",
+      "Collar Scrubber",
+      "Rust Free Plastic Base"
+    ],
+    "images": [
+      "https://picsum.photos/seed/p1465skaz1/800/800",
+      "https://picsum.photos/seed/p1465skaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P1465SKAZ",
+    "mrp": 34990,
+    "price": 31491,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p115aslaz",
+    "name": "LG 11.5 Kg Semi-Automatic – P115ASLAZ (Full Black)",
+    "category": "Washing Machine",
+    "description": "LG 11.5 kg semi-automatic top loader with Roller Jet Pulsator+ Soak, Wind Jet Dry, and Smart Filter in Full Black.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "11.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs",
+      "Spin Type": "Auto Restart"
+    },
+    "features": [
+      "Roller Jet Pulsator + Soak",
+      "Wind Jet Dry",
+      "Smart Filter",
+      "Rat Away",
+      "Magic Wheels",
+      "Collar Scrubber"
+    ],
+    "images": [
+      "https://picsum.photos/seed/p115aslaz1/800/800",
+      "https://picsum.photos/seed/p115aslaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P115ASLAZ",
+    "mrp": 25990,
+    "price": 23391,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p115asdaz",
+    "name": "LG 11.5 Kg Semi-Automatic – P115ASDAZ (Dark Grey)",
+    "category": "Washing Machine",
+    "description": "LG 11.5 kg semi-automatic top loader with Roller Jet Pulsator+ Soak and Wind Jet Dry in Dark Grey.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "11.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs",
+      "Spin Type": "Auto Restart"
+    },
+    "features": [
+      "Roller Jet Pulsator + Soak",
+      "Wind Jet Dry",
+      "Rat Away",
+      "Collar Scrubber"
+    ],
+    "images": [
+      "https://picsum.photos/seed/p115asdaz1/800/800",
+      "https://picsum.photos/seed/p115asdaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P115ASDAZ",
+    "mrp": 25490,
+    "price": 22941,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p105asraz",
+    "name": "LG 10.5 Kg Semi-Automatic – P105ASRAZ (Red)",
+    "category": "Washing Machine",
+    "description": "LG 10.5 kg semi-automatic top loader with Roller Jet Pulsator+ Soak and Wind Jet Dry in Red.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "10.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs",
+      "Spin Type": "Auto Restart"
+    },
+    "features": [
+      "Roller Jet Pulsator + Soak",
+      "Wind Jet Dry",
+      "Rat Away",
+      "Collar Scrubber"
+    ],
+    "images": [
+      "https://picsum.photos/seed/p105asraz1/800/800",
+      "https://picsum.photos/seed/p105asraz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P105ASRAZ",
+    "mrp": 24490,
+    "price": 22041,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p1040rgaz",
+    "name": "LG 10 Kg Semi-Automatic – P1040RGAZ (Grey)",
+    "category": "Washing Machine",
+    "description": "LG 10 kg semi-automatic top loader with Roller Jet Pulsator and Wind Jet Dry in Grey.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "10 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "4 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs",
+      "Spin Type": "Manual"
+    },
+    "features": [
+      "Roller Jet Pulsator",
+      "Wind Jet Dry",
+      "Rat Away"
+    ],
+    "images": [
+      "https://picsum.photos/seed/p1040rgaz1/800/800",
+      "https://picsum.photos/seed/p1040rgaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "4 Star",
+    "tags": ["Semi-Automatic"],
+    "productCode": "P1040RGAZ",
+    "mrp": 22490,
+    "price": 20241,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p955asgaz",
+    "name": "LG 9.5 Kg Semi-Automatic – P955ASGAZ (Grey)",
+    "category": "Washing Machine",
+    "description": "LG 9.5 kg semi-automatic top loader with Roller Jet Pulsator+ Soak in Grey.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "9.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": [
+      "Roller Jet Pulsator + Soak",
+      "Wind Jet Dry",
+      "Rat Away"
+    ],
+    "images": [
+      "https://picsum.photos/seed/p955asgaz1/800/800",
+      "https://picsum.photos/seed/p955asgaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P955ASGAZ",
+    "mrp": 23490,
+    "price": 21141,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p9555skaz",
+    "name": "LG 9.5 Kg Semi-Automatic – P9555SKAZ (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 9.5 kg semi-automatic top loader in Middle Black.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "9.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": [
+      "Roller Jet Pulsator + Soak",
+      "Wind Jet Dry",
+      "Rat Away"
+    ],
+    "images": [
+      "https://picsum.photos/seed/p9555skaz1/800/800",
+      "https://picsum.photos/seed/p9555skaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P9555SKAZ",
+    "mrp": 21990,
+    "price": 19791,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p8535slmz",
+    "name": "LG 8.5 Kg Semi-Automatic – P8535SLMZ (Full Black)",
+    "category": "Washing Machine",
+    "description": "LG 8.5 kg semi-automatic top loader with Roller Jet Pulsator+ Soak, Wind Jet Dry, Rat Away, and Magic Wheels in Full Black.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "8.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": [
+      "Roller Jet Pulsator + Soak",
+      "Wind Jet Dry",
+      "Rat Away",
+      "Magic Wheels",
+      "Collar Scrubber"
+    ],
+    "images": [
+      "https://picsum.photos/seed/p8535slmz1/800/800",
+      "https://picsum.photos/seed/p8535slmz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P8535SLMZ",
+    "mrp": 20490,
+    "price": 18441,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p8535sdaz",
+    "name": "LG 8.5 Kg Semi-Automatic – P8535SDAZ (Dark Grey)",
+    "category": "Washing Machine",
+    "description": "LG 8.5 kg semi-automatic top loader in Dark Grey.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "8.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator + Soak", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p8535sdaz1/800/800",
+      "https://picsum.photos/seed/p8535sdaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P8535SDAZ",
+    "mrp": 19990,
+    "price": 17991,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p8525sgaz",
+    "name": "LG 8.5 Kg Semi-Automatic – P8525SGAZ (Grey)",
+    "category": "Washing Machine",
+    "description": "LG 8.5 kg semi-automatic top loader in Grey.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "8.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator + Soak", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p8525sgaz1/800/800",
+      "https://picsum.photos/seed/p8525sgaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P8525SGAZ",
+    "mrp": 18990,
+    "price": 17091,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p8035sraza",
+    "name": "LG 8 Kg Semi-Automatic – P8035SRAZA (Red)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg semi-automatic top loader in Red.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator + Soak", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p8035sraza1/800/800",
+      "https://picsum.photos/seed/p8035sraza2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P8035SRAZA",
+    "mrp": 19490,
+    "price": 17541,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p8015skaz",
+    "name": "LG 8 Kg Semi-Automatic – P8015SKAZ (Middle Black)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg semi-automatic top loader in Middle Black.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator + Soak", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p8015skaz1/800/800",
+      "https://picsum.photos/seed/p8015skaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P8015SKAZ",
+    "mrp": 18490,
+    "price": 16641,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p8015sbaz",
+    "name": "LG 8 Kg Semi-Automatic – P8015SBAZ (Blue)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg semi-automatic top loader in Blue.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator + Soak", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p8015sbaz1/800/800",
+      "https://picsum.photos/seed/p8015sbaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P8015SBAZ",
+    "mrp": 17990,
+    "price": 16191,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p8015sgaz",
+    "name": "LG 8 Kg Semi-Automatic – P8015SGAZ (Grey)",
+    "category": "Washing Machine",
+    "description": "LG 8 kg semi-automatic top loader in Grey.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "8 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator + Soak", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p8015sgaz1/800/800",
+      "https://picsum.photos/seed/p8015sgaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic", "Smart Inverter"],
+    "productCode": "P8015SGAZ",
+    "mrp": 17990,
+    "price": 16191,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p7510rraz",
+    "name": "LG 7.5 Kg Semi-Automatic – P7510RRAZ (Red)",
+    "category": "Washing Machine",
+    "description": "LG 7.5 kg semi-automatic top loader in Red.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "7.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p7510rraz1/800/800",
+      "https://picsum.photos/seed/p7510rraz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic"],
+    "productCode": "P7510RRAZ",
+    "mrp": 17290,
+    "price": 15561,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p7510rgaz",
+    "name": "LG 7.5 Kg Semi-Automatic – P7510RGAZ (Grey)",
+    "category": "Washing Machine",
+    "description": "LG 7.5 kg semi-automatic top loader in Grey.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "7.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p7510rgaz1/800/800",
+      "https://picsum.photos/seed/p7510rgaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic"],
+    "productCode": "P7510RGAZ",
+    "mrp": 16790,
+    "price": 15111,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p7510rbaz",
+    "name": "LG 7.5 Kg Semi-Automatic – P7510RBAZ (Blue)",
+    "category": "Washing Machine",
+    "description": "LG 7.5 kg semi-automatic top loader in Blue.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "7.5 Kg",
+      "Motor Type": "Smart Inverter",
+      "Energy Rating": "5 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "3 Programs"
+    },
+    "features": ["Roller Jet Pulsator", "Wind Jet Dry", "Rat Away"],
+    "images": [
+      "https://picsum.photos/seed/p7510rbaz1/800/800",
+      "https://picsum.photos/seed/p7510rbaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 10 years on wash motor + 5 years on spin motor",
+    "energyRating": "5 Star",
+    "tags": ["Semi-Automatic"],
+    "productCode": "P7510RBAZ",
+    "mrp": 17790,
+    "price": 16011,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "wm-p7010ngaz",
+    "name": "LG 7 Kg Semi-Automatic – P7010NGAZ (Grey)",
+    "category": "Washing Machine",
+    "description": "LG 7 kg semi-automatic top loader – compact and affordable for small households in Grey.",
+    "specifications": {
+      "Type": "Semi-Automatic",
+      "Capacity": "7 Kg",
+      "Motor Type": "Standard",
+      "Energy Rating": "3 Star",
+      "WiFi": "No",
+      "In-built Heater": "No",
+      "Wash Programs": "2 Programs"
+    },
+    "features": ["Roller Jet Pulsator", "Wind Jet Dry"],
+    "images": [
+      "https://picsum.photos/seed/p7010ngaz1/800/800",
+      "https://picsum.photos/seed/p7010ngaz2/800/800"
+    ],
+    "inStock": true,
+    "warranty": "1 year comprehensive + 3 years on wash motor + 3 years on spin motor",
+    "energyRating": "3 Star",
+    "tags": ["Semi-Automatic"],
+    "productCode": "P7010NGAZ",
+    "mrp": 14490,
+    "price": 13041,
+    "createdAt": "2024-06-01T00:00:00.000Z"
+  }
+]

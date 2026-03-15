@@ -1,0 +1,183 @@
+[
+  {
+    "_id": "dw-dfb435fv",
+    "name": "LG 15 Place Setting Dishwasher – DFB435FV (Prime Silver)",
+    "category": "Dishwashers",
+    "description": "LG 15 place setting free-standing dishwasher with QuadWash™, TrueSteam™, Auto Open Door drying, Wi-Fi ThinQ, and EasyRack™ Plus for versatile loading in Prime Silver.",
+    "specifications": {
+      "Type": "Free Standing",
+      "Place Settings": "15",
+      "Motor Type": "Inverter Direct Drive",
+      "Wash Programs": "10",
+      "Water Consumption": "9.6 L",
+      "Noise Level": "42 dB",
+      "WiFi": "Yes – LG ThinQ",
+      "Auto Open Door": "Yes",
+      "Child Lock": "Yes",
+      "Delay Start": "Up to 24 Hrs",
+      "Dimensions (WxDxH mm)": "600 x 600 x 850",
+      "Color": "Prime Silver"
+    },
+    "features": [
+      "QuadWash™ – four multi-motion spray arms for maximum coverage",
+      "TrueSteam™ – high-temperature steam removes masala stains & 99.999% bacteria",
+      "Auto Open Door – opens automatically at end of cycle for faster drying",
+      "EasyRack™ Plus – height-adjustable upper rack fits tall Indian vessels",
+      "LG ThinQ Wi-Fi – remote monitoring and cycle download via smartphone",
+      "Inverter Direct Drive Motor – quiet, energy-efficient, 10-year warranty",
+      "SenseClean – turbidity sensor auto-adjusts water & time",
+      "Dual Zone Wash – separate intensity for upper and lower racks",
+      "Half Load option",
+      "Machine Clean Reminder"
+    ],
+    "images": [
+      "https://picsum.photos/seed/dfb435fv1/800/800",
+      "https://picsum.photos/seed/dfb435fv2/800/800"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Dishwasher", "QuadWash", "TrueSteam", "Wi-Fi", "Auto Open Door", "15 Place Settings", "Inverter Direct Drive"],
+    "productCode": "DFB435FV",
+    "mrp": 82999,
+    "price": 74699,
+    "createdAt": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "_id": "dw-dfb435fm",
+    "name": "LG 15 Place Setting Dishwasher – DFB435FM (Matte Black)",
+    "category": "Dishwashers",
+    "description": "LG 15 place setting free-standing dishwasher with QuadWash™, TrueSteam™, Auto Open Door drying, Wi-Fi ThinQ, and EasyRack™ Plus in premium Matte Black finish.",
+    "specifications": {
+      "Type": "Free Standing",
+      "Place Settings": "15",
+      "Motor Type": "Inverter Direct Drive",
+      "Wash Programs": "10",
+      "Water Consumption": "9.6 L",
+      "Noise Level": "42 dB",
+      "WiFi": "Yes – LG ThinQ",
+      "Auto Open Door": "Yes",
+      "Child Lock": "Yes",
+      "Delay Start": "Up to 24 Hrs",
+      "Dimensions (WxDxH mm)": "600 x 600 x 850",
+      "Color": "Matte Black"
+    },
+    "features": [
+      "QuadWash™ – four multi-motion spray arms for maximum coverage",
+      "TrueSteam™ – high-temperature steam removes masala stains & 99.999% bacteria",
+      "Auto Open Door – opens automatically at end of cycle for faster drying",
+      "EasyRack™ Plus – height-adjustable upper rack fits tall Indian vessels",
+      "LG ThinQ Wi-Fi – remote monitoring and cycle download via smartphone",
+      "Inverter Direct Drive Motor – quiet, energy-efficient, 10-year warranty",
+      "SenseClean – turbidity sensor auto-adjusts water & time",
+      "Dual Zone Wash – separate intensity for upper and lower racks",
+      "Half Load option",
+      "Machine Clean Reminder"
+    ],
+    "images": [
+      "https://picsum.photos/seed/dfb435fm1/800/800",
+      "https://picsum.photos/seed/dfb435fm2/800/800"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Dishwasher", "QuadWash", "TrueSteam", "Wi-Fi", "Auto Open Door", "15 Place Settings", "Inverter Direct Drive"],
+    "productCode": "DFB435FM",
+    "mrp": 85999,
+    "price": 77399,
+    "createdAt": "2024-10-01T00:00:00.000Z"
+  },
+  {
+    "_id": "dw-dfb532fp",
+    "name": "LG 14 Place Setting Dishwasher – DFB532FP (Silver)",
+    "category": "Dishwashers",
+    "description": "LG 14 place setting free-standing dishwasher with Inverter Direct Drive, QuadWash™, TrueSteam™, EasyRack™ Plus, and Wi-Fi ThinQ in Silver – ideal for Indian kitchens.",
+    "specifications": {
+      "Type": "Free Standing",
+      "Place Settings": "14",
+      "Motor Type": "Inverter Direct Drive",
+      "Wash Programs": "10",
+      "Water Consumption": "9.5 L",
+      "Noise Level": "46 dB",
+      "WiFi": "Yes – LG ThinQ",
+      "Auto Open Door": "No",
+      "Child Lock": "Yes",
+      "Delay Start": "Up to 12 Hrs",
+      "Dimensions (WxDxH mm)": "600 x 600 x 850",
+      "Color": "Silver"
+    },
+    "features": [
+      "QuadWash™ – four multi-motion spray arms for maximum coverage",
+      "TrueSteam™ – steam penetrates & removes stubborn masala stains",
+      "EasyRack™ Plus – flexible height-adjustable upper rack",
+      "Inverter Direct Drive Motor – 10-year motor warranty",
+      "LG ThinQ Wi-Fi – remote control and smart diagnosis",
+      "Dual Zone Wash – customise intensity per rack",
+      "Half Load option",
+      "Machine Clean Reminder",
+      "Smart Diagnosis",
+      "Personalized Settings"
+    ],
+    "images": [
+      "https://picsum.photos/seed/dfb532fp1/800/800",
+      "https://picsum.photos/seed/dfb532fp2/800/800"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Dishwasher", "QuadWash", "TrueSteam", "Wi-Fi", "14 Place Settings", "Inverter Direct Drive"],
+    "productCode": "DFB532FP",
+    "mrp": 59999,
+    "price": 53999,
+    "createdAt": "2024-09-01T00:00:00.000Z"
+  },
+  {
+    "_id": "dw-dfb335hm",
+    "name": "LG 15 Place Setting Dishwasher – DFB335HM (Matte Black)",
+    "category": "Dishwashers",
+    "description": "LG 15 place setting free-standing smart dishwasher with top control panel, QuadWash™, TrueSteam™, SenseClean, and Wi-Fi ThinQ in Matte Black – no pre-rinse required.",
+    "specifications": {
+      "Type": "Free Standing",
+      "Place Settings": "15",
+      "Motor Type": "Inverter Direct Drive",
+      "Wash Programs": "10",
+      "Water Consumption": "9.6 L",
+      "Noise Level": "44 dB",
+      "WiFi": "Yes – LG ThinQ",
+      "Auto Open Door": "No",
+      "Child Lock": "Yes",
+      "Delay Start": "Up to 24 Hrs",
+      "Control Panel": "Top Hidden Controls",
+      "Dimensions (WxDxH mm)": "600 x 600 x 850",
+      "Color": "Matte Black"
+    },
+    "features": [
+      "QuadWash™ – four spray arms clean every corner",
+      "TrueSteam™ – removes masala stains & reduces 99.999% bacteria",
+      "SenseClean – turbidity sensor auto-adjusts water usage and cycle time",
+      "Top Hidden Control Panel – sleek, minimalist exterior design",
+      "LG ThinQ Wi-Fi – remote cycle control and smart diagnosis",
+      "Inverter Direct Drive Motor – 10-year motor warranty",
+      "EasyRack™ Plus – height-adjustable upper rack",
+      "No Pre-rinse Required",
+      "Half Load option",
+      "Machine Clean Reminder"
+    ],
+    "images": [
+      "https://picsum.photos/seed/dfb335hm1/800/800",
+      "https://picsum.photos/seed/dfb335hm2/800/800"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "2 years comprehensive + 10 years on motor",
+    "energyRating": "5 Star",
+    "tags": ["Dishwasher", "QuadWash", "TrueSteam", "Wi-Fi", "15 Place Settings", "Inverter Direct Drive", "SenseClean"],
+    "productCode": "DFB335HM",
+    "mrp": 91999,
+    "price": 82799,
+    "createdAt": "2024-11-01T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,1299 @@
+[
+  {
+    "name": "LG FHD Smart TV (32 inch) - LR573B / LR576B / LR595B Series",
+    "category": "TV",
+    "description": "LG 32-inch Full HD Smart TVs deliver crisp 1080p visuals with webOS 25 smart platform, AI Brightness Control, and Dolby Atmos sound support — ideal for bedrooms and compact living spaces.",
+    "specifications": {
+      "Screen Size": "32 inches",
+      "Resolution": "Full HD (1920 x 1080)",
+      "Display Type": "LED",
+      "Refresh Rate": "60Hz",
+      "HDR": "No",
+      "Smart TV": "webOS 25",
+      "Processor": "Quad Core",
+      "Sound Output": "20W",
+      "HDMI Ports": "2",
+      "USB Ports": "1",
+      "WiFi": "Yes",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "Full HD LED display for sharp 1080p clarity",
+      "webOS 25 smart platform with ThinQ AI",
+      "AI Brightness Control for adaptive visuals",
+      "Bluetooth audio support",
+      "Screen Share and AirPlay 2 support",
+      "Dolby Atmos audio (passthrough)",
+      "Game Optimizer for casual gaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/820",
+      "https://picsum.photos/800/821"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year on panel",
+    "energyRating": "3 Star",
+    "tags": [
+      "FHD",
+      "Smart TV",
+      "webOS",
+      "LED",
+      "32 inch"
+    ],
+    "variants": [
+      {
+        "screenSize": 32,
+        "price": 19116,
+        "mrp": 21240,
+        "productCode": "32LR573B6LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 32,
+        "price": 21591,
+        "mrp": 23990,
+        "productCode": "32LR576B6LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 32,
+        "price": 26091,
+        "mrp": 28990,
+        "productCode": "32LR595B6LA",
+        "inStock": true
+      }
+    ],
+    "productCode": "32LR573B6LA",
+    "mrp": 21240,
+    "price": 19116
+  },
+  {
+    "name": "LG FHD Smart TV (32 inch) - LR603B / LR605B Series",
+    "category": "TV",
+    "description": "LG 32-inch Full HD Smart TVs with webOS 25, AI picture optimization, and seamless smart connectivity at an accessible price for everyday entertainment.",
+    "specifications": {
+      "Screen Size": "32 inches",
+      "Resolution": "Full HD (1920 x 1080)",
+      "Display Type": "LED",
+      "Refresh Rate": "60Hz",
+      "HDR": "No",
+      "Smart TV": "webOS 25",
+      "Processor": "Quad Core",
+      "Sound Output": "20W",
+      "HDMI Ports": "2",
+      "USB Ports": "1",
+      "WiFi": "Yes",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "Full HD resolution for crisp everyday viewing",
+      "webOS 25 smart TV platform",
+      "AI Picture adjustment",
+      "Bluetooth audio support",
+      "ThinQ AI smart connectivity",
+      "LG Channels free streaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/826",
+      "https://picsum.photos/800/827"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year on panel",
+    "energyRating": "3 Star",
+    "tags": [
+      "FHD",
+      "Smart TV",
+      "webOS",
+      "LED",
+      "32 inch"
+    ],
+    "variants": [
+      {
+        "screenSize": 32,
+        "price": 17991,
+        "mrp": 19990,
+        "productCode": "32LR603B6LC",
+        "inStock": true
+      },
+      {
+        "screenSize": 32,
+        "price": 18891,
+        "mrp": 20990,
+        "productCode": "32LR605B6LC",
+        "inStock": true
+      }
+    ],
+    "productCode": "32LR603B6LC",
+    "mrp": 19990,
+    "price": 17991
+  },
+  {
+    "name": "LG FHD Smart TV (32 inch) - LR656B / LR686B Series",
+    "category": "TV",
+    "description": "LG 32-inch Full HD Smart TVs with vibrant LED display, AI picture optimization, and a smart UI for immersive everyday entertainment.",
+    "specifications": {
+      "Screen Size": "32 inches",
+      "Resolution": "Full HD (1920 x 1080)",
+      "Display Type": "LED",
+      "Refresh Rate": "60Hz",
+      "HDR": "No",
+      "Smart TV": "webOS 25",
+      "Processor": "Quad Core",
+      "Sound Output": "20W",
+      "HDMI Ports": "2",
+      "USB Ports": "1",
+      "WiFi": "Yes",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "Full HD LED display",
+      "webOS 25 smart platform",
+      "AI Picture optimization",
+      "Bluetooth audio",
+      "ThinQ AI support",
+      "Game Optimizer"
+    ],
+    "images": [
+      "https://picsum.photos/800/830",
+      "https://picsum.photos/800/831"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year on panel",
+    "energyRating": "3 Star",
+    "tags": [
+      "FHD",
+      "Smart TV",
+      "webOS",
+      "LED",
+      "32 inch"
+    ],
+    "variants": [
+      {
+        "screenSize": 32,
+        "price": 25641,
+        "mrp": 28490,
+        "productCode": "32LR656B6LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 32,
+        "price": 25641,
+        "mrp": 28490,
+        "productCode": "32LR686B6LA",
+        "inStock": true
+      }
+    ],
+    "productCode": "32LR656B6LA",
+    "mrp": 28490,
+    "price": 25641
+  },
+  {
+    "name": "LG FHD Smart TV 43 inch - 43LR56006LC",
+    "category": "TV",
+    "description": "LG 43-inch Full HD Smart TV with crisp 1080p visuals, webOS 25 smart platform, AI picture refinement, and enhanced connectivity for a superior big-screen FHD experience.",
+    "specifications": {
+      "Screen Size": "43 inches",
+      "Resolution": "Full HD (1920 x 1080)",
+      "Display Type": "LED",
+      "Refresh Rate": "60Hz",
+      "HDR": "No",
+      "Smart TV": "webOS 25",
+      "Processor": "Quad Core",
+      "Sound Output": "20W",
+      "HDMI Ports": "3",
+      "USB Ports": "2",
+      "WiFi": "Yes",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "Full HD resolution for crisp large-screen viewing",
+      "webOS 25 smart platform",
+      "AI Picture refinement",
+      "Bluetooth audio",
+      "Smart connectivity with AirPlay 2 and Google Cast",
+      "LG Channels free streaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/834",
+      "https://picsum.photos/800/835"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year on panel",
+    "energyRating": "3 Star",
+    "tags": [
+      "FHD",
+      "Smart TV",
+      "webOS",
+      "LED",
+      "43 inch"
+    ],
+    "variants": [
+      {
+        "screenSize": 43,
+        "price": 34011,
+        "mrp": 37790,
+        "productCode": "43LR56006LC",
+        "inStock": true
+      }
+    ],
+    "productCode": "43LR56006LC",
+    "mrp": 37790,
+    "price": 34011
+  },
+  {
+    "name": "LG NanoCell NANO83 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG NanoCell NANO83 delivers pure, vivid 4K color using NanoCell technology that filters out impure colors for lifelike accuracy, powered by the α7 AI Processor 4K Gen8 and webOS 25 smart platform.",
+    "specifications": {
+      "Screen Size": "43 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "NanoCell",
+      "Refresh Rate": "60Hz",
+      "HDR": "HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α7 AI Processor 4K Gen8",
+      "Sound Output": "20W",
+      "HDMI Ports": "3 (HDMI 2.0)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 5",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "NanoCell color technology for pure, accurate colors",
+      "α7 AI Processor 4K Gen8 for intelligent picture and sound",
+      "4K Super Upscaling for enhanced resolution",
+      "Filmmaker Mode with Ambient Light Compensation",
+      "Dolby Atmos virtual surround sound",
+      "Game Optimizer with VRR and ALLM",
+      "webOS 25 smart platform with ThinQ AI",
+      "AI Brightness Control for adaptive viewing",
+      "LG Channels free streaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/720",
+      "https://picsum.photos/800/721"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "NanoCell",
+      "4K",
+      "Smart TV",
+      "HDR",
+      "AI"
+    ],
+    "variants": [
+      {
+        "screenSize": 43,
+        "price": 50571,
+        "mrp": 56190,
+        "productCode": "43NANO83A6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 55,
+        "price": 74601,
+        "mrp": 82890,
+        "productCode": "55NANO83A6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 109521,
+        "mrp": 121690,
+        "productCode": "65NANO83A6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 75,
+        "price": 195831,
+        "mrp": 217590,
+        "productCode": "75NANO83A6A",
+        "inStock": true
+      }
+    ],
+    "productCode": "43NANO83A6A",
+    "mrp": 56190,
+    "price": 50571
+  },
+  {
+    "name": "LG NanoCell NANO85 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG NanoCell NANO85 delivers accurate 4K colors with NanoCell display technology, 120Hz refresh rate, and powerful α7 AI Processor 4K Gen8 — ideal for sports, movies, and gaming.",
+    "specifications": {
+      "Screen Size": "55 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "NanoCell",
+      "Refresh Rate": "120Hz",
+      "HDR": "HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α7 AI Processor 4K Gen8",
+      "Sound Output": "20W",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 5",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "NanoCell color purification for vibrant, accurate hues",
+      "120Hz refresh rate for smooth motion",
+      "α7 AI Processor 4K Gen8",
+      "AI Picture Pro optimization",
+      "Game Optimizer with VRR and ALLM",
+      "Filmmaker Mode",
+      "Dolby Atmos virtual surround sound",
+      "webOS 25 with ThinQ AI",
+      "LG Channels free streaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/730",
+      "https://picsum.photos/800/731"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "NanoCell",
+      "4K",
+      "Smart TV",
+      "120Hz",
+      "AI"
+    ],
+    "variants": [
+      {
+        "screenSize": 55,
+        "price": 74601,
+        "mrp": 82890,
+        "productCode": "55NANO85A6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 109521,
+        "mrp": 121690,
+        "productCode": "65NANO85A6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 75,
+        "price": 195831,
+        "mrp": 217590,
+        "productCode": "75NANO85A6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 86,
+        "price": 331911,
+        "mrp": 368790,
+        "productCode": "86NANO85A6A",
+        "inStock": true
+      }
+    ],
+    "productCode": "55NANO85A6A",
+    "mrp": 82890,
+    "price": 74601
+  },
+  {
+    "name": "LG QNED8 BA 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG QNED8 BA combines QNED color technology with α7 AI Processor 4K Gen8 and Dynamic QNED Color for 100% Color Volume, delivering vibrant visuals with Dolby Vision and Dolby Atmos support across multiple sizes.",
+    "specifications": {
+      "Screen Size": "43 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "QNED (Quantum Dot NanoCell)",
+      "Refresh Rate": "120Hz (55\" and above), 60Hz (43\")",
+      "HDR": "Dolby Vision, HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α7 AI Processor 4K Gen8",
+      "Sound Output": "20W",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 5",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "Dynamic QNED Color with 100% Color Volume",
+      "α7 AI Processor 4K Gen8 for intelligent picture and audio",
+      "Dolby Vision and Dolby Atmos support",
+      "Filmmaker Mode with Ambient Light Compensation",
+      "Game Optimizer with VRR and ALLM",
+      "HGIG Mode for HDR gaming",
+      "AI Picture Pro and 4K Super Upscaling",
+      "webOS 25 with ThinQ AI",
+      "AI Sound Pro (Virtual 9.1.2 up-mix)"
+    ],
+    "images": [
+      "https://picsum.photos/800/700",
+      "https://picsum.photos/800/701"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "QNED",
+      "4K",
+      "Smart TV",
+      "Dolby Vision",
+      "100% Color Volume"
+    ],
+    "variants": [
+      {
+        "screenSize": 43,
+        "price": 62091,
+        "mrp": 68990,
+        "productCode": "43QNED8BA6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 55,
+        "price": 104481,
+        "mrp": 116090,
+        "productCode": "55QNED8BA6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 148491,
+        "mrp": 164990,
+        "productCode": "65QNED8BA6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 75,
+        "price": 199071,
+        "mrp": 221190,
+        "productCode": "75QNED8BA6A",
+        "inStock": true
+      }
+    ],
+    "productCode": "43QNED8BA6A",
+    "mrp": 68990,
+    "price": 62091
+  },
+  {
+    "name": "LG QNED8 GA MiniLED 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG QNED8 GA is a premium MiniLED 4K smart TV powered by the α8 AI Processor 4K Gen2, featuring Dynamic QNED Color, Dolby Vision, Dolby Atmos, and 144Hz VRR for an immersive picture and gaming experience.",
+    "specifications": {
+      "Screen Size": "55 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "QNED MiniLED",
+      "Refresh Rate": "144Hz (65\", 75\", 86\"), 120Hz (55\")",
+      "HDR": "Dolby Vision, HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α8 AI Processor 4K Gen2",
+      "Sound Output": "40W",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 6",
+      "Bluetooth": "Bluetooth 5.3"
+    },
+    "features": [
+      "MiniLED backlighting with Precision Dimming",
+      "Dynamic QNED Color Pro with 100% Color Volume",
+      "α8 AI Processor 4K Gen2 for superior AI picture and sound",
+      "Dolby Vision and Dolby Atmos",
+      "144Hz VRR for ultra-smooth gaming (65\" and above)",
+      "Filmmaker Mode with Ambient Light Compensation",
+      "Game Optimizer with NVIDIA G-Sync and AMD FreeSync",
+      "AI Sound Pro (Virtual 9.1.2 up-mix)",
+      "webOS 25 with ThinQ AI"
+    ],
+    "images": [
+      "https://picsum.photos/800/710",
+      "https://picsum.photos/800/711"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "QNED",
+      "MiniLED",
+      "4K",
+      "Smart TV",
+      "Dolby Vision",
+      "144Hz",
+      "Gaming"
+    ],
+    "variants": [
+      {
+        "screenSize": 55,
+        "price": 99531,
+        "mrp": 110590,
+        "productCode": "55QNED8GA6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 141021,
+        "mrp": 156690,
+        "productCode": "65QNED8GA6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 75,
+        "price": 215721,
+        "mrp": 239690,
+        "productCode": "75QNED8GA6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 86,
+        "price": 356751,
+        "mrp": 396390,
+        "productCode": "86QNED8GA6A",
+        "inStock": true
+      }
+    ],
+    "productCode": "55QNED8GA6A",
+    "mrp": 110590,
+    "price": 99531
+  },
+  {
+    "name": "LG QNED8 XA MiniLED 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG QNED8 XA is a premium MiniLED QNED smart TV with α8 AI Processor 4K Gen2, Dynamic QNED Color, Dolby Vision and Atmos, and 144Hz VRR — a high-performance display for gaming and cinematic entertainment.",
+    "specifications": {
+      "Screen Size": "55 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "QNED MiniLED",
+      "Refresh Rate": "144Hz (65\", 75\"), 120Hz (55\")",
+      "HDR": "Dolby Vision, HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α8 AI Processor 4K Gen2",
+      "Sound Output": "40W",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 6",
+      "Bluetooth": "Bluetooth 5.3"
+    },
+    "features": [
+      "MiniLED backlighting with Precision Dimming",
+      "Dynamic QNED Color with 100% Color Volume",
+      "α8 AI Processor 4K Gen2",
+      "Dolby Vision and Dolby Atmos",
+      "144Hz VRR for ultra-smooth gaming",
+      "Game Optimizer with NVIDIA G-Sync and AMD FreeSync",
+      "Filmmaker Mode",
+      "AI Sound Pro (Virtual 9.1.2 up-mix)",
+      "webOS 25 with ThinQ AI"
+    ],
+    "images": [
+      "https://picsum.photos/800/712",
+      "https://picsum.photos/800/713"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "QNED",
+      "MiniLED",
+      "4K",
+      "Smart TV",
+      "Dolby Vision",
+      "144Hz",
+      "Gaming"
+    ],
+    "variants": [
+      {
+        "screenSize": 55,
+        "price": 99531,
+        "mrp": 110590,
+        "productCode": "55QNED8XA6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 141021,
+        "mrp": 156690,
+        "productCode": "65QNED8XA6A",
+        "inStock": true
+      },
+      {
+        "screenSize": 75,
+        "price": 215721,
+        "mrp": 239690,
+        "productCode": "75QNED8XA6A",
+        "inStock": true
+      }
+    ],
+    "productCode": "55QNED8XA6A",
+    "mrp": 110590,
+    "price": 99531
+  },
+  {
+    "name": "LG QNED92 MiniLED 4K AI Smart TV (QNED evo)",
+    "category": "TV",
+    "description": "LG QNED92 is the flagship QNED evo AI TV featuring MiniLED backlighting with Precision Dimming Pro, Dynamic QNED Color Pro, α8 AI Processor 4K Gen2, and 144Hz VRR — delivering an exceptional cinematic and gaming experience.",
+    "specifications": {
+      "Screen Size": "55 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "QNED evo MiniLED",
+      "Refresh Rate": "144Hz (65\", 75\"), 120Hz (55\")",
+      "HDR": "Dolby Vision, HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α8 AI Processor 4K Gen2",
+      "Sound Output": "40W",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 6E",
+      "Bluetooth": "Bluetooth 5.3"
+    },
+    "features": [
+      "MiniLED backlighting with Precision Dimming Pro for deep blacks",
+      "Dynamic QNED Color Pro with 100% Color Volume",
+      "α8 AI Processor 4K Gen2 — 70% more powerful than previous gen",
+      "Dolby Vision and Dolby Atmos",
+      "144Hz VRR for ultra-smooth gaming (65\" and above)",
+      "Game Optimizer with NVIDIA G-Sync and AMD FreeSync Premium",
+      "Filmmaker Mode with Ambient Light Compensation",
+      "AI Sound Pro (Virtual 9.1.2 up-mix)",
+      "AI Picture Pro and AI Brightness Control",
+      "webOS 25 with ThinQ AI and Microsoft Copilot",
+      "GeForce NOW, Amazon Luna, Xbox cloud gaming support"
+    ],
+    "images": [
+      "https://picsum.photos/800/714",
+      "https://picsum.photos/800/715"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "QNED evo",
+      "MiniLED",
+      "4K",
+      "Smart TV",
+      "Dolby Vision",
+      "144Hz",
+      "Gaming"
+    ],
+    "variants": [
+      {
+        "screenSize": 55,
+        "price": 99531,
+        "mrp": 110590,
+        "productCode": "55QNED92ALA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 141021,
+        "mrp": 156690,
+        "productCode": "65QNED92ALA",
+        "inStock": true
+      },
+      {
+        "screenSize": 75,
+        "price": 215721,
+        "mrp": 239690,
+        "productCode": "75QNED92ALA",
+        "inStock": true
+      }
+    ],
+    "productCode": "55QNED92ALA",
+    "mrp": 110590,
+    "price": 99531
+  },
+  {
+    "name": "LG UHD UA82 / UA83 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG UHD UA82/UA83 Series delivers crisp 4K UHD clarity with α7 AI Processor 4K Gen8, webOS 25 smart platform, and slim design — perfect for everyday entertainment across multiple room sizes.",
+    "specifications": {
+      "Screen Size": "43 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "LED",
+      "Refresh Rate": "60Hz",
+      "HDR": "HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α7 AI Processor 4K Gen8",
+      "Sound Output": "20W",
+      "HDMI Ports": "3 (HDMI 2.0)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 5",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "4K Ultra HD resolution",
+      "α7 AI Processor 4K Gen8 for smart picture and sound",
+      "Dynamic Tone Mapping for HDR accuracy",
+      "AI Brightness Control",
+      "Filmmaker Mode",
+      "Game Optimizer with VRR and ALLM",
+      "webOS 25 smart platform with ThinQ AI",
+      "Bluetooth audio output",
+      "AirPlay 2, Google Cast, and Screen Share",
+      "LG Channels free streaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/800",
+      "https://picsum.photos/800/801"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "4 Star",
+    "tags": [
+      "UHD",
+      "4K",
+      "Smart TV",
+      "webOS",
+      "AI"
+    ],
+    "variants": [
+      {
+        "screenSize": 43,
+        "price": 41481,
+        "mrp": 46090,
+        "productCode": "43UA82506LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 43,
+        "price": 43851,
+        "mrp": 48790,
+        "productCode": "43UA83006LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 43,
+        "price": 43851,
+        "mrp": 48790,
+        "productCode": "43UA83506LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 50,
+        "price": 58041,
+        "mrp": 64490,
+        "productCode": "50UA82506LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 50,
+        "price": 56421,
+        "mrp": 62690,
+        "productCode": "50UA83006LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 50,
+        "price": 56421,
+        "mrp": 62690,
+        "productCode": "50UA83506LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 55,
+        "price": 59661,
+        "mrp": 66290,
+        "productCode": "55UA82506LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 55,
+        "price": 65511,
+        "mrp": 72790,
+        "productCode": "55UA83006LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 55,
+        "price": 65511,
+        "mrp": 72790,
+        "productCode": "55UA83506LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 95391,
+        "mrp": 105990,
+        "productCode": "65UA82506LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 87111,
+        "mrp": 96790,
+        "productCode": "65UA83006LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 87111,
+        "mrp": 96790,
+        "productCode": "65UA83506LA",
+        "inStock": true
+      }
+    ],
+    "productCode": "43UA82506LA",
+    "mrp": 46090,
+    "price": 41481
+  },
+  {
+    "name": "LG UHD UA73 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG UHD UA73 Series features a 4K IPS panel with α7 AI Processor 4K Gen8, webOS 25, and wide viewing angles — a dependable everyday 4K TV with VRR gaming support.",
+    "specifications": {
+      "Screen Size": "43 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "LED (IPS)",
+      "Refresh Rate": "60Hz",
+      "HDR": "HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α7 AI Processor 4K Gen8",
+      "Sound Output": "20W",
+      "HDMI Ports": "3 (HDMI 2.0)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 5",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "4K Ultra HD IPS panel for wide viewing angles",
+      "α7 AI Processor 4K Gen8",
+      "Filmmaker Mode",
+      "Game Optimizer with VRR and ALLM",
+      "webOS 25 smart TV platform with ThinQ AI",
+      "AI Brightness Control",
+      "Bluetooth audio",
+      "AirPlay 2, Google Cast support",
+      "LG Channels free streaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/802",
+      "https://picsum.photos/800/803"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "4 Star",
+    "tags": [
+      "UHD",
+      "4K",
+      "Smart TV",
+      "webOS",
+      "AI"
+    ],
+    "variants": [
+      {
+        "screenSize": 43,
+        "price": 48051,
+        "mrp": 53390,
+        "productCode": "43UA73806LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 43,
+        "price": 48951,
+        "mrp": 54390,
+        "productCode": "43UA73506LA",
+        "inStock": true
+      }
+    ],
+    "productCode": "43UA73806LA",
+    "mrp": 53390,
+    "price": 48051
+  },
+  {
+    "name": "LG UHD UR75 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG UHD UR75 delivers 4K picture quality with AI picture processing, webOS 25 smart platform, and Game Optimizer — a reliable 4K option for everyday streaming and gaming.",
+    "specifications": {
+      "Screen Size": "43 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "LED",
+      "Refresh Rate": "60Hz",
+      "HDR": "HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "AI Processor 4K Gen8",
+      "Sound Output": "20W",
+      "HDMI Ports": "3 (HDMI 2.0)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 5",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "4K Ultra HD resolution",
+      "HDR10 Pro for enhanced brightness and contrast",
+      "Game Optimizer with VRR and ALLM",
+      "ThinQ AI smart connectivity",
+      "webOS 25 smart TV platform",
+      "Bluetooth audio",
+      "LG Channels free streaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/806",
+      "https://picsum.photos/800/807"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "4 Star",
+    "tags": [
+      "UHD",
+      "4K",
+      "Smart TV",
+      "webOS"
+    ],
+    "variants": [
+      {
+        "screenSize": 43,
+        "price": 43851,
+        "mrp": 48790,
+        "productCode": "43UR75506LC",
+        "inStock": true
+      },
+      {
+        "screenSize": 50,
+        "price": 56421,
+        "mrp": 62690,
+        "productCode": "50UR75506LC",
+        "inStock": true
+      },
+      {
+        "screenSize": 55,
+        "price": 65511,
+        "mrp": 72790,
+        "productCode": "55UR75506LC",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 87111,
+        "mrp": 96790,
+        "productCode": "65UR75506LC",
+        "inStock": true
+      }
+    ],
+    "productCode": "43UR75506LC",
+    "mrp": 48790,
+    "price": 43851
+  },
+  {
+    "name": "LG UHD UT73 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG UHD UT73 Series combines 4K clarity with webOS 25, α7 AI Processor 4K Gen8, and popular smart features for everyday streaming and casual gaming.",
+    "specifications": {
+      "Screen Size": "43 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "LED",
+      "Refresh Rate": "60Hz",
+      "HDR": "HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α7 AI Processor 4K Gen8",
+      "Sound Output": "20W",
+      "HDMI Ports": "3 (HDMI 2.0)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 5",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "4K Ultra HD clarity",
+      "α7 AI Processor 4K Gen8",
+      "webOS 25 smart platform",
+      "Filmmaker Mode",
+      "Game Optimizer with VRR and ALLM",
+      "HDR10 Pro support",
+      "Bluetooth audio",
+      "AI Picture enhancement"
+    ],
+    "images": [
+      "https://picsum.photos/800/808",
+      "https://picsum.photos/800/809"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "4 Star",
+    "tags": [
+      "UHD",
+      "4K",
+      "Smart TV",
+      "webOS"
+    ],
+    "variants": [
+      {
+        "screenSize": 43,
+        "price": 48951,
+        "mrp": 54390,
+        "productCode": "43UT73006LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 43,
+        "price": 48951,
+        "mrp": 54390,
+        "productCode": "43UT73506LA",
+        "inStock": true
+      }
+    ],
+    "productCode": "43UT73006LA",
+    "mrp": 54390,
+    "price": 48951
+  },
+  {
+    "name": "LG OLED B5 Series 4K AI Smart TV",
+    "category": "TV",
+    "description": "LG OLED B5 Series features self-lit OLED pixels for perfect blacks and infinite contrast, powered by the α8 AI Processor 4K Gen2 and webOS 25 — a brilliant entry into OLED excellence.",
+    "specifications": {
+      "Screen Size": "55 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "OLED",
+      "Refresh Rate": "120Hz",
+      "HDR": "Dolby Vision, HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α8 AI Processor 4K Gen2",
+      "Sound Output": "20W",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "2",
+      "WiFi": "Wi-Fi 5",
+      "Bluetooth": "Yes"
+    },
+    "features": [
+      "Self-lit OLED pixels for perfect blacks and infinite contrast",
+      "α8 AI Processor 4K Gen2 for intelligent picture and sound",
+      "100% Color Fidelity and 100% Color Volume to DCI-P3",
+      "Dolby Vision and Dolby Atmos",
+      "120Hz refresh rate for smooth motion",
+      "Filmmaker Mode with Ambient Light Compensation",
+      "Game Optimizer with NVIDIA G-Sync and AMD FreeSync",
+      "0.1ms response time for gaming",
+      "AI Sound Pro (Virtual 9.1.2 up-mix)",
+      "webOS 25 with ThinQ AI and Microsoft Copilot"
+    ],
+    "images": [
+      "https://picsum.photos/800/600",
+      "https://picsum.photos/800/601"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "OLED",
+      "4K",
+      "Smart TV",
+      "Dolby Vision",
+      "120Hz",
+      "Gaming"
+    ],
+    "variants": [
+      {
+        "screenSize": 55,
+        "price": 160911,
+        "mrp": 178790,
+        "productCode": "OLED55B56LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 223191,
+        "mrp": 247990,
+        "productCode": "OLED65B56LA",
+        "inStock": true
+      }
+    ],
+    "productCode": "OLED55B56LA",
+    "mrp": 178790,
+    "price": 160911
+  },
+  {
+    "name": "LG OLED C5 / C5X Series 4K AI Smart TV (OLED evo)",
+    "category": "TV",
+    "description": "LG OLED C5 and C5X are the world's best-selling OLED evo TVs, featuring an advanced panel with α9 AI Processor 4K Gen8, 144Hz VRR, Dolby Vision, and Dolby Atmos — the ultimate all-rounder for movies, sports, and gaming.",
+    "specifications": {
+      "Screen Size": "42 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "OLED evo",
+      "Refresh Rate": "120Hz native, 144Hz VRR",
+      "HDR": "Dolby Vision, HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α9 AI Processor 4K Gen8",
+      "Sound Output": "40W (2.2CH)",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "3",
+      "WiFi": "Wi-Fi 6 (802.11ax)",
+      "Bluetooth": "Bluetooth 5.3"
+    },
+    "features": [
+      "OLED evo panel for enhanced brightness and perfect blacks",
+      "α9 AI Processor 4K Gen8 — made exclusively for LG OLED",
+      "100% Color Fidelity and 100% Color Volume to DCI-P3",
+      "Dolby Vision (including Dolby Vision Gaming) and Dolby Atmos",
+      "144Hz VRR for ultra-smooth gaming",
+      "0.1ms response time (VESA ClearMR 9000 certified)",
+      "NVIDIA G-Sync Compatible and AMD FreeSync Premium",
+      "AI Sound Pro (Virtual 11.1.2 up-mix)",
+      "Filmmaker Mode with Ambient Light Compensation",
+      "AI Picture Pro with AI Object Enhancer",
+      "webOS 25 with ThinQ AI and Microsoft Copilot",
+      "GeForce NOW, Amazon Luna, Xbox cloud gaming",
+      "Brightness Booster (65\", 55\" only)"
+    ],
+    "images": [
+      "https://picsum.photos/800/610",
+      "https://picsum.photos/800/611"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "OLED evo",
+      "4K",
+      "Smart TV",
+      "Gaming",
+      "Dolby Vision",
+      "144Hz"
+    ],
+    "variants": [
+      {
+        "screenSize": 42,
+        "price": 124461,
+        "mrp": 138290,
+        "productCode": "OLED42C54LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 48,
+        "price": 135171,
+        "mrp": 150190,
+        "productCode": "OLED48C56LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 55,
+        "price": 191331,
+        "mrp": 212590,
+        "productCode": "OLED55C56LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 258831,
+        "mrp": 287590,
+        "productCode": "OLED65C56LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 258831,
+        "mrp": 287590,
+        "productCode": "OLED65C5XLA",
+        "inStock": true
+      },
+      {
+        "screenSize": 77,
+        "price": 489591,
+        "mrp": 543990,
+        "productCode": "OLED77C56LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 83,
+        "price": 663831,
+        "mrp": 737590,
+        "productCode": "OLED83C56LA",
+        "inStock": true
+      }
+    ],
+    "productCode": "OLED42C54LA",
+    "mrp": 138290,
+    "price": 124461
+  },
+  {
+    "name": "LG OLED G5 / G5X Gallery Edition 4K AI Smart TV (OLED evo)",
+    "category": "TV",
+    "description": "LG OLED G5 Gallery Edition is LG's flagship OLED evo TV, featuring Brightness Booster Ultimate, α11 AI Processor 4K Gen2, 165Hz VRR, and an ultra-slim wall-mount design for a premium gallery-style living room setup.",
+    "specifications": {
+      "Screen Size": "55 inches",
+      "Resolution": "4K Ultra HD (3840 x 2160)",
+      "Display Type": "OLED evo Gallery Edition",
+      "Refresh Rate": "120Hz native, 165Hz VRR",
+      "HDR": "Dolby Vision, HDR10 Pro, HLG",
+      "Smart TV": "webOS 25",
+      "Processor": "α11 AI Processor 4K Gen2",
+      "Sound Output": "60W (4.2CH)",
+      "HDMI Ports": "4 (HDMI 2.1)",
+      "USB Ports": "3",
+      "WiFi": "Wi-Fi 6E (802.11ax)",
+      "Bluetooth": "Bluetooth 5.3"
+    },
+    "features": [
+      "OLED evo Gallery Edition with Brightness Booster Ultimate (up to 3x brighter than B5)",
+      "α11 AI Processor 4K Gen2 for next-gen AI picture and sound",
+      "100% Color Fidelity and 100% Color Volume to DCI-P3",
+      "Dolby Vision IQ and Dolby Atmos",
+      "165Hz VRR for the smoothest gaming experience",
+      "0.1ms response time (VESA ClearMR 10000 certified)",
+      "NVIDIA G-Sync Compatible and AMD FreeSync Premium",
+      "AI Sound Pro (Virtual 11.1.2 up-mix)",
+      "Filmmaker Mode with Ambient Light Compensation",
+      "AI Picture Pro and AI Picture Wizard",
+      "Ultra-slim wall-mount design (wall mount included)",
+      "webOS 25 with ThinQ AI, Microsoft Copilot, and AI Concierge",
+      "GeForce NOW, Amazon Luna, Xbox cloud gaming"
+    ],
+    "images": [
+      "https://picsum.photos/800/620",
+      "https://picsum.photos/800/621"
+    ],
+    "videoUrl": "",
+    "inStock": true,
+    "warranty": "1 year comprehensive + 1 year panel",
+    "energyRating": "5 Star",
+    "tags": [
+      "OLED evo",
+      "Gallery Edition",
+      "4K",
+      "Premium",
+      "Smart TV",
+      "Gaming",
+      "165Hz"
+    ],
+    "variants": [
+      {
+        "screenSize": 55,
+        "price": 222381,
+        "mrp": 247090,
+        "productCode": "OLED55G56LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 65,
+        "price": 348471,
+        "mrp": 387190,
+        "productCode": "OLED65G56LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 77,
+        "price": 522711,
+        "mrp": 580790,
+        "productCode": "OLED77G56LA",
+        "inStock": true
+      },
+      {
+        "screenSize": 97,
+        "price": 2074221,
+        "mrp": 2304690,
+        "productCode": "OLED97G56LA",
+        "inStock": true
+      }
+    ],
+    "productCode": "OLED55G56LA",
+    "mrp": 247090,
+    "price": 222381
+  }
+]
